@@ -1,0 +1,35 @@
+Case:
+    abalone datasets with 9 features and 1 objective. 
+    The features are : 
+        'sex', 'length', 'diameter', 'height', 'whole_weight', 
+        'shucked_weight', 'viscera_weight', 'shell_weight', 'rings'
+    The objective is 'age' which is = rings+1.5
+
+Workflow:
+    Original Features ---GE--> Constructed Features ---NN--> Class
+
+Original Features are taken from abalone datasets (we ommit rings):
+    'sex', 'length', 'diameter', 'height', 'whole_weight', 
+    'shucked_weight', 'viscera_weight', 'shell_weight'
+
+By Using GE, we construct these features:
+    ((whole_weight)-(shucked_weight))+(length)
+    ((whole_weight)-(shucked_weight))+(diameter)
+    ((whole_weight)-(viscera_weight))+(length)
+    ((whole_weight)-(viscera_weight))+(diameter)
+    ((height)-(viscera_weight))+(whole_weight)
+    ((whole_weight)-(1))+(length)
+    ((whole_weight)-(8))+(length)
+    ((whole_weight)-(43))+(length)
+    ((whole_weight)-(23))+(length)
+    ((whole_weight)-(7))+(diameter)
+    
+ The constructed features have pearson correlation with the output 
+ (the biggest correlation is 0.78), 
+ therefore we confidence that such a features can classify dataset as expected
+ 
+ TODO:
+    - a good feature should have correlation with the target, but should not has
+        correlation with other features
+    - classifier : neural network or svm, or even both :D
+

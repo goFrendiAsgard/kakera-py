@@ -1,0 +1,1551 @@
+2012-05-02 18:59:20,598 started run
+2012-05-02 18:59:20,710 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 18:59:20,710 completed run: generations: 0, best member:7 fitness: 0.0
+2012-05-02 19:00:46,515 started run
+2012-05-02 19:00:46,595 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:00:46,596 completed run: generations: 0, best member:7 fitness: 0.0
+2012-05-02 19:01:40,034 started run
+2012-05-02 19:01:40,203 Finished generation: 0 Max generations: 100
+2012-05-02 19:01:40,204 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:40,204 ['mapping variables into program failed']
+2012-05-02 19:01:40,402 Finished generation: 1 Max generations: 100
+2012-05-02 19:01:40,402 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:40,403 ['mapping variables into program failed']
+2012-05-02 19:01:40,591 Finished generation: 2 Max generations: 100
+2012-05-02 19:01:40,591 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:40,592 ['mapping variables into program failed']
+2012-05-02 19:01:40,727 Finished generation: 3 Max generations: 100
+2012-05-02 19:01:40,728 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:40,728 ['mapping variables into program failed']
+2012-05-02 19:01:40,884 Finished generation: 4 Max generations: 100
+2012-05-02 19:01:40,885 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:40,885 ['mapping variables into program failed']
+2012-05-02 19:01:41,079 Finished generation: 5 Max generations: 100
+2012-05-02 19:01:41,080 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,080 ['mapping variables into program failed']
+2012-05-02 19:01:41,274 Finished generation: 6 Max generations: 100
+2012-05-02 19:01:41,275 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,275 ['mapping variables into program failed']
+2012-05-02 19:01:41,471 Finished generation: 7 Max generations: 100
+2012-05-02 19:01:41,471 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,472 ['mapping variables into program failed']
+2012-05-02 19:01:41,652 Finished generation: 8 Max generations: 100
+2012-05-02 19:01:41,653 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,653 ['mapping variables into program failed']
+2012-05-02 19:01:41,785 Finished generation: 9 Max generations: 100
+2012-05-02 19:01:41,786 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,786 ['mapping variables into program failed']
+2012-05-02 19:01:41,982 Finished generation: 10 Max generations: 100
+2012-05-02 19:01:41,983 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:41,983 ['mapping variables into program failed']
+2012-05-02 19:01:42,178 Finished generation: 11 Max generations: 100
+2012-05-02 19:01:42,178 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:42,179 ['mapping variables into program failed']
+2012-05-02 19:01:42,372 Finished generation: 12 Max generations: 100
+2012-05-02 19:01:42,373 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:42,373 ['mapping variables into program failed']
+2012-05-02 19:01:42,563 Finished generation: 13 Max generations: 100
+2012-05-02 19:01:42,563 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:42,564 ['mapping variables into program failed']
+2012-05-02 19:01:42,729 Finished generation: 14 Max generations: 100
+2012-05-02 19:01:42,730 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:42,730 ['mapping variables into program failed']
+2012-05-02 19:01:42,920 Finished generation: 15 Max generations: 100
+2012-05-02 19:01:42,921 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:42,921 ['mapping variables into program failed']
+2012-05-02 19:01:43,112 Finished generation: 16 Max generations: 100
+2012-05-02 19:01:43,112 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:43,113 ['mapping variables into program failed']
+2012-05-02 19:01:43,303 Finished generation: 17 Max generations: 100
+2012-05-02 19:01:43,304 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:43,304 ['mapping variables into program failed']
+2012-05-02 19:01:43,497 Finished generation: 18 Max generations: 100
+2012-05-02 19:01:43,497 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:43,498 ['mapping variables into program failed']
+2012-05-02 19:01:43,678 Finished generation: 19 Max generations: 100
+2012-05-02 19:01:43,678 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:43,678 ['mapping variables into program failed']
+2012-05-02 19:01:43,827 Finished generation: 20 Max generations: 100
+2012-05-02 19:01:43,827 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:43,828 ['mapping variables into program failed']
+2012-05-02 19:01:44,026 Finished generation: 21 Max generations: 100
+2012-05-02 19:01:44,027 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,027 ['mapping variables into program failed']
+2012-05-02 19:01:44,220 Finished generation: 22 Max generations: 100
+2012-05-02 19:01:44,221 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,221 ['mapping variables into program failed']
+2012-05-02 19:01:44,413 Finished generation: 23 Max generations: 100
+2012-05-02 19:01:44,414 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,414 ['mapping variables into program failed']
+2012-05-02 19:01:44,607 Finished generation: 24 Max generations: 100
+2012-05-02 19:01:44,607 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,608 ['mapping variables into program failed']
+2012-05-02 19:01:44,740 Finished generation: 25 Max generations: 100
+2012-05-02 19:01:44,740 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,740 ['mapping variables into program failed']
+2012-05-02 19:01:44,851 Finished generation: 26 Max generations: 100
+2012-05-02 19:01:44,852 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:44,852 ['mapping variables into program failed']
+2012-05-02 19:01:45,042 Finished generation: 27 Max generations: 100
+2012-05-02 19:01:45,043 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,043 ['mapping variables into program failed']
+2012-05-02 19:01:45,237 Finished generation: 28 Max generations: 100
+2012-05-02 19:01:45,238 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,238 ['mapping variables into program failed']
+2012-05-02 19:01:45,433 Finished generation: 29 Max generations: 100
+2012-05-02 19:01:45,434 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,435 ['mapping variables into program failed']
+2012-05-02 19:01:45,631 Finished generation: 30 Max generations: 100
+2012-05-02 19:01:45,632 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,632 ['mapping variables into program failed']
+2012-05-02 19:01:45,775 Finished generation: 31 Max generations: 100
+2012-05-02 19:01:45,775 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,776 ['mapping variables into program failed']
+2012-05-02 19:01:45,967 Finished generation: 32 Max generations: 100
+2012-05-02 19:01:45,967 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:45,967 ['mapping variables into program failed']
+2012-05-02 19:01:46,162 Finished generation: 33 Max generations: 100
+2012-05-02 19:01:46,162 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:46,163 ['mapping variables into program failed']
+2012-05-02 19:01:46,354 Finished generation: 34 Max generations: 100
+2012-05-02 19:01:46,355 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:46,355 ['mapping variables into program failed']
+2012-05-02 19:01:46,546 Finished generation: 35 Max generations: 100
+2012-05-02 19:01:46,547 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:46,547 ['mapping variables into program failed']
+2012-05-02 19:01:46,709 Finished generation: 36 Max generations: 100
+2012-05-02 19:01:46,709 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:46,709 ['mapping variables into program failed']
+2012-05-02 19:01:46,815 Finished generation: 37 Max generations: 100
+2012-05-02 19:01:46,816 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:46,816 ['mapping variables into program failed']
+2012-05-02 19:01:47,005 Finished generation: 38 Max generations: 100
+2012-05-02 19:01:47,006 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,006 ['mapping variables into program failed']
+2012-05-02 19:01:47,197 Finished generation: 39 Max generations: 100
+2012-05-02 19:01:47,198 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,198 ['mapping variables into program failed']
+2012-05-02 19:01:47,388 Finished generation: 40 Max generations: 100
+2012-05-02 19:01:47,389 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,389 ['mapping variables into program failed']
+2012-05-02 19:01:47,581 Finished generation: 41 Max generations: 100
+2012-05-02 19:01:47,582 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,582 ['mapping variables into program failed']
+2012-05-02 19:01:47,725 Finished generation: 42 Max generations: 100
+2012-05-02 19:01:47,726 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,726 ['mapping variables into program failed']
+2012-05-02 19:01:47,862 Finished generation: 43 Max generations: 100
+2012-05-02 19:01:47,862 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:47,863 ['mapping variables into program failed']
+2012-05-02 19:01:48,062 Finished generation: 44 Max generations: 100
+2012-05-02 19:01:48,063 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,063 ['mapping variables into program failed']
+2012-05-02 19:01:48,253 Finished generation: 45 Max generations: 100
+2012-05-02 19:01:48,254 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,254 ['mapping variables into program failed']
+2012-05-02 19:01:48,444 Finished generation: 46 Max generations: 100
+2012-05-02 19:01:48,444 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,445 ['mapping variables into program failed']
+2012-05-02 19:01:48,635 Finished generation: 47 Max generations: 100
+2012-05-02 19:01:48,635 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,635 ['mapping variables into program failed']
+2012-05-02 19:01:48,779 Finished generation: 48 Max generations: 100
+2012-05-02 19:01:48,780 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,780 ['mapping variables into program failed']
+2012-05-02 19:01:48,909 Finished generation: 49 Max generations: 100
+2012-05-02 19:01:48,909 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:48,910 ['mapping variables into program failed']
+2012-05-02 19:01:49,010 Finished generation: 50 Max generations: 100
+2012-05-02 19:01:49,010 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,011 ['mapping variables into program failed']
+2012-05-02 19:01:49,170 Finished generation: 51 Max generations: 100
+2012-05-02 19:01:49,171 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,171 ['mapping variables into program failed']
+2012-05-02 19:01:49,318 Finished generation: 52 Max generations: 100
+2012-05-02 19:01:49,319 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,319 ['mapping variables into program failed']
+2012-05-02 19:01:49,448 Finished generation: 53 Max generations: 100
+2012-05-02 19:01:49,448 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,449 ['mapping variables into program failed']
+2012-05-02 19:01:49,627 Finished generation: 54 Max generations: 100
+2012-05-02 19:01:49,628 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,628 ['mapping variables into program failed']
+2012-05-02 19:01:49,755 Finished generation: 55 Max generations: 100
+2012-05-02 19:01:49,756 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,756 ['mapping variables into program failed']
+2012-05-02 19:01:49,900 Finished generation: 56 Max generations: 100
+2012-05-02 19:01:49,901 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:49,901 ['mapping variables into program failed']
+2012-05-02 19:01:50,051 Finished generation: 57 Max generations: 100
+2012-05-02 19:01:50,051 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:50,052 ['mapping variables into program failed']
+2012-05-02 19:01:50,243 Finished generation: 58 Max generations: 100
+2012-05-02 19:01:50,244 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:50,244 ['mapping variables into program failed']
+2012-05-02 19:01:50,441 Finished generation: 59 Max generations: 100
+2012-05-02 19:01:50,441 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:50,442 ['mapping variables into program failed']
+2012-05-02 19:01:50,637 Finished generation: 60 Max generations: 100
+2012-05-02 19:01:50,638 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:50,638 ['mapping variables into program failed']
+2012-05-02 19:01:50,810 Finished generation: 61 Max generations: 100
+2012-05-02 19:01:50,811 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:50,811 ['mapping variables into program failed']
+2012-05-02 19:01:51,006 Finished generation: 62 Max generations: 100
+2012-05-02 19:01:51,007 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,007 ['mapping variables into program failed']
+2012-05-02 19:01:51,200 Finished generation: 63 Max generations: 100
+2012-05-02 19:01:51,200 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,201 ['mapping variables into program failed']
+2012-05-02 19:01:51,355 Finished generation: 64 Max generations: 100
+2012-05-02 19:01:51,355 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,355 ['mapping variables into program failed']
+2012-05-02 19:01:51,470 Finished generation: 65 Max generations: 100
+2012-05-02 19:01:51,470 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,470 ['mapping variables into program failed']
+2012-05-02 19:01:51,585 Finished generation: 66 Max generations: 100
+2012-05-02 19:01:51,586 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,586 ['mapping variables into program failed']
+2012-05-02 19:01:51,717 Finished generation: 67 Max generations: 100
+2012-05-02 19:01:51,718 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,718 ['mapping variables into program failed']
+2012-05-02 19:01:51,859 Finished generation: 68 Max generations: 100
+2012-05-02 19:01:51,860 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:51,860 ['mapping variables into program failed']
+2012-05-02 19:01:52,056 Finished generation: 69 Max generations: 100
+2012-05-02 19:01:52,056 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:52,057 ['mapping variables into program failed']
+2012-05-02 19:01:52,254 Finished generation: 70 Max generations: 100
+2012-05-02 19:01:52,254 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:52,255 ['mapping variables into program failed']
+2012-05-02 19:01:52,450 Finished generation: 71 Max generations: 100
+2012-05-02 19:01:52,451 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:52,451 ['mapping variables into program failed']
+2012-05-02 19:01:52,645 Finished generation: 72 Max generations: 100
+2012-05-02 19:01:52,645 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:52,646 ['mapping variables into program failed']
+2012-05-02 19:01:52,816 Finished generation: 73 Max generations: 100
+2012-05-02 19:01:52,816 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:52,817 ['mapping variables into program failed']
+2012-05-02 19:01:53,012 Finished generation: 74 Max generations: 100
+2012-05-02 19:01:53,013 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,013 ['mapping variables into program failed']
+2012-05-02 19:01:53,208 Finished generation: 75 Max generations: 100
+2012-05-02 19:01:53,208 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,209 ['mapping variables into program failed']
+2012-05-02 19:01:53,403 Finished generation: 76 Max generations: 100
+2012-05-02 19:01:53,403 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,404 ['mapping variables into program failed']
+2012-05-02 19:01:53,599 Finished generation: 77 Max generations: 100
+2012-05-02 19:01:53,600 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,600 ['mapping variables into program failed']
+2012-05-02 19:01:53,765 Finished generation: 78 Max generations: 100
+2012-05-02 19:01:53,765 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,766 ['mapping variables into program failed']
+2012-05-02 19:01:53,912 Finished generation: 79 Max generations: 100
+2012-05-02 19:01:53,913 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:53,913 ['mapping variables into program failed']
+2012-05-02 19:01:54,110 Finished generation: 80 Max generations: 100
+2012-05-02 19:01:54,111 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,111 ['mapping variables into program failed']
+2012-05-02 19:01:54,252 Finished generation: 81 Max generations: 100
+2012-05-02 19:01:54,252 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,253 ['mapping variables into program failed']
+2012-05-02 19:01:54,412 Finished generation: 82 Max generations: 100
+2012-05-02 19:01:54,412 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,413 ['mapping variables into program failed']
+2012-05-02 19:01:54,606 Finished generation: 83 Max generations: 100
+2012-05-02 19:01:54,607 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,607 ['mapping variables into program failed']
+2012-05-02 19:01:54,801 Finished generation: 84 Max generations: 100
+2012-05-02 19:01:54,802 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,802 ['mapping variables into program failed']
+2012-05-02 19:01:54,996 Finished generation: 85 Max generations: 100
+2012-05-02 19:01:54,997 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:54,997 ['mapping variables into program failed']
+2012-05-02 19:01:55,192 Finished generation: 86 Max generations: 100
+2012-05-02 19:01:55,192 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:55,193 ['mapping variables into program failed']
+2012-05-02 19:01:55,387 Finished generation: 87 Max generations: 100
+2012-05-02 19:01:55,388 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:55,388 ['mapping variables into program failed']
+2012-05-02 19:01:55,586 Finished generation: 88 Max generations: 100
+2012-05-02 19:01:55,586 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:55,586 ['mapping variables into program failed']
+2012-05-02 19:01:55,733 Finished generation: 89 Max generations: 100
+2012-05-02 19:01:55,733 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:55,733 ['mapping variables into program failed']
+2012-05-02 19:01:55,885 Finished generation: 90 Max generations: 100
+2012-05-02 19:01:55,886 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:55,886 ['mapping variables into program failed']
+2012-05-02 19:01:56,065 Finished generation: 91 Max generations: 100
+2012-05-02 19:01:56,065 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,066 ['mapping variables into program failed']
+2012-05-02 19:01:56,261 Finished generation: 92 Max generations: 100
+2012-05-02 19:01:56,262 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,262 ['mapping variables into program failed']
+2012-05-02 19:01:56,457 Finished generation: 93 Max generations: 100
+2012-05-02 19:01:56,458 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,458 ['mapping variables into program failed']
+2012-05-02 19:01:56,654 Finished generation: 94 Max generations: 100
+2012-05-02 19:01:56,655 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,655 ['mapping variables into program failed']
+2012-05-02 19:01:56,795 Finished generation: 95 Max generations: 100
+2012-05-02 19:01:56,796 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,796 ['mapping variables into program failed']
+2012-05-02 19:01:56,988 Finished generation: 96 Max generations: 100
+2012-05-02 19:01:56,988 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:56,989 ['mapping variables into program failed']
+2012-05-02 19:01:57,180 Finished generation: 97 Max generations: 100
+2012-05-02 19:01:57,181 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:57,181 ['mapping variables into program failed']
+2012-05-02 19:01:57,372 Finished generation: 98 Max generations: 100
+2012-05-02 19:01:57,373 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:57,373 ['mapping variables into program failed']
+2012-05-02 19:01:57,564 Finished generation: 99 Max generations: 100
+2012-05-02 19:01:57,565 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:01:57,565 ['mapping variables into program failed']
+2012-05-02 19:01:57,646 stopping processing due to max generation
+2012-05-02 19:01:57,647 completed run: generations: 100, best member:0 fitness: 1000.0
+2012-05-02 19:02:31,560 started run
+2012-05-02 19:02:31,609 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:02:31,609 completed run: generations: 0, best member:0 fitness: 0.0
+2012-05-02 19:02:52,631 started run
+2012-05-02 19:02:52,748 Finished generation: 0 Max generations: 100
+2012-05-02 19:02:52,748 best_value: 255.0 median: 1000.0 mean: 955.3
+2012-05-02 19:02:52,749 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=8+m
+    if ((5+minOtsu)>(m-0)):
+        tpredict=255
+    elif ((std*minOtsu)>(minOtsu*m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:02:52,952 Finished generation: 1 Max generations: 100
+2012-05-02 19:02:52,953 best_value: 255.0 median: 1000.0 mean: 915.7
+2012-05-02 19:02:52,953 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=8+m
+    if ((5+minOtsu)>(m-0)):
+        tpredict=255
+    elif ((std*minOtsu)>(minOtsu*m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:02:53,073 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:02:53,073 completed run: generations: 2, best member:35 fitness: 0.0
+2012-05-02 19:03:00,030 started run
+2012-05-02 19:03:00,261 Finished generation: 0 Max generations: 100
+2012-05-02 19:03:00,261 best_value: 255.0 median: 1000.0 mean: 881.6
+2012-05-02 19:03:00,262 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=9-otsu
+    if ((9-std)>(m-8)):
+        tpredict=255
+    elif ((otsu*otsu)>(otsu*0)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:00,497 Finished generation: 1 Max generations: 100
+2012-05-02 19:03:00,498 best_value: 255.0 median: 1000.0 mean: 797.7
+2012-05-02 19:03:00,498 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=9-otsu
+    if ((9-std)>(m-8)):
+        tpredict=255
+    elif ((otsu*otsu)>(otsu*0)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:00,721 Finished generation: 2 Max generations: 100
+2012-05-02 19:03:00,722 best_value: 255.0 median: 510.0 mean: 679.7
+2012-05-02 19:03:00,722 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=9-m
+    if ((7+std)>(m-8)):
+        tpredict=255
+    elif ((otsu*otsu)>(otsu*0)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:00,866 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:03:00,867 completed run: generations: 3, best member:0 fitness: 0.0
+2012-05-02 19:03:47,254 started run
+2012-05-02 19:03:47,320 Finished generation: 0 Max generations: 100
+2012-05-02 19:03:47,320 best_value: 765.0 median: 1000.0 mean: 995.3
+2012-05-02 19:03:47,320 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,383 Finished generation: 1 Max generations: 100
+2012-05-02 19:03:47,384 best_value: 765.0 median: 1000.0 mean: 990.6
+2012-05-02 19:03:47,384 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,448 Finished generation: 2 Max generations: 100
+2012-05-02 19:03:47,448 best_value: 765.0 median: 1000.0 mean: 981.2
+2012-05-02 19:03:47,448 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,513 Finished generation: 3 Max generations: 100
+2012-05-02 19:03:47,514 best_value: 765.0 median: 1000.0 mean: 976.5
+2012-05-02 19:03:47,514 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,580 Finished generation: 4 Max generations: 100
+2012-05-02 19:03:47,581 best_value: 765.0 median: 1000.0 mean: 953.0
+2012-05-02 19:03:47,581 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,649 Finished generation: 5 Max generations: 100
+2012-05-02 19:03:47,649 best_value: 765.0 median: 1000.0 mean: 938.9
+2012-05-02 19:03:47,649 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m-2
+    if ((otsu*std)>(std+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(1+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,718 Finished generation: 6 Max generations: 100
+2012-05-02 19:03:47,718 best_value: 765.0 median: 1000.0 mean: 929.5
+2012-05-02 19:03:47,718 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=std+3
+    if ((otsu*std)>(otsu+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(3+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,788 Finished generation: 7 Max generations: 100
+2012-05-02 19:03:47,788 best_value: 765.0 median: 1000.0 mean: 920.1
+2012-05-02 19:03:47,788 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=std+3
+    if ((otsu*std)>(otsu+otsu)):
+        tpredict=255
+    elif ((otsu-otsu)>(3+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,860 Finished generation: 8 Max generations: 100
+2012-05-02 19:03:47,861 best_value: 510.0 median: 1000.0 mean: 886.8
+2012-05-02 19:03:47,861 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m+3
+    if ((otsu+minOtsu)>(std*otsu)):
+        tpredict=255
+    elif ((3-otsu)>(otsu+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:47,937 Finished generation: 9 Max generations: 100
+2012-05-02 19:03:47,937 best_value: 510.0 median: 765.0 mean: 835.1
+2012-05-02 19:03:47,937 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m+3
+    if ((otsu+minOtsu)>(std*otsu)):
+        tpredict=255
+    elif ((3-otsu)>(otsu+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:48,014 Finished generation: 10 Max generations: 100
+2012-05-02 19:03:48,014 best_value: 510.0 median: 765.0 mean: 849.2
+2012-05-02 19:03:48,014 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m+3
+    if ((otsu+minOtsu)>(std*otsu)):
+        tpredict=255
+    elif ((3-otsu)>(otsu+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:48,090 Finished generation: 11 Max generations: 100
+2012-05-02 19:03:48,091 best_value: 510.0 median: 765.0 mean: 824.9
+2012-05-02 19:03:48,091 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m+3
+    if ((otsu+minOtsu)>(minOtsu*otsu)):
+        tpredict=255
+    elif ((3-otsu)>(otsu+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:03:48,135 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:03:48,135 completed run: generations: 12, best member:23 fitness: 0.0
+2012-05-02 19:49:25,737 started run
+2012-05-02 19:49:25,876 Finished generation: 0 Max generations: 100
+2012-05-02 19:49:25,876 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:25,877 ['mapping variables into program failed']
+2012-05-02 19:49:26,002 Finished generation: 1 Max generations: 100
+2012-05-02 19:49:26,003 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:26,003 ['mapping variables into program failed']
+2012-05-02 19:49:26,208 Finished generation: 2 Max generations: 100
+2012-05-02 19:49:26,209 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:26,209 ['mapping variables into program failed']
+2012-05-02 19:49:26,413 Finished generation: 3 Max generations: 100
+2012-05-02 19:49:26,413 best_value: 255.0 median: 1000.0 mean: 985.1
+2012-05-02 19:49:26,414 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*0
+    if ((5+std)>(otsu*otsu)):
+        tpredict=255
+    elif ((minOtsu-m)>(minOtsu+std)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:49:26,516 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:49:26,517 completed run: generations: 4, best member:24 fitness: 0.0
+2012-05-02 19:49:39,760 started run
+2012-05-02 19:49:39,969 Finished generation: 0 Max generations: 100
+2012-05-02 19:49:39,970 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:39,970 ['mapping variables into program failed']
+2012-05-02 19:49:40,177 Finished generation: 1 Max generations: 100
+2012-05-02 19:49:40,178 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:40,178 ['mapping variables into program failed']
+2012-05-02 19:49:40,359 Finished generation: 2 Max generations: 100
+2012-05-02 19:49:40,359 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:40,359 ['mapping variables into program failed']
+2012-05-02 19:49:40,537 Finished generation: 3 Max generations: 100
+2012-05-02 19:49:40,538 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:40,538 ['mapping variables into program failed']
+2012-05-02 19:49:40,741 Finished generation: 4 Max generations: 100
+2012-05-02 19:49:40,741 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:40,742 ['mapping variables into program failed']
+2012-05-02 19:49:40,944 Finished generation: 5 Max generations: 100
+2012-05-02 19:49:40,945 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:40,945 ['mapping variables into program failed']
+2012-05-02 19:49:41,148 Finished generation: 6 Max generations: 100
+2012-05-02 19:49:41,148 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:41,149 ['mapping variables into program failed']
+2012-05-02 19:49:41,338 Finished generation: 7 Max generations: 100
+2012-05-02 19:49:41,339 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:41,339 ['mapping variables into program failed']
+2012-05-02 19:49:41,458 Finished generation: 8 Max generations: 100
+2012-05-02 19:49:41,459 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:41,459 ['mapping variables into program failed']
+2012-05-02 19:49:41,648 Finished generation: 9 Max generations: 100
+2012-05-02 19:49:41,648 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:41,649 ['mapping variables into program failed']
+2012-05-02 19:49:41,852 Finished generation: 10 Max generations: 100
+2012-05-02 19:49:41,852 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:41,853 ['mapping variables into program failed']
+2012-05-02 19:49:42,056 Finished generation: 11 Max generations: 100
+2012-05-02 19:49:42,057 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:42,057 ['mapping variables into program failed']
+2012-05-02 19:49:42,259 Finished generation: 12 Max generations: 100
+2012-05-02 19:49:42,260 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:42,260 ['mapping variables into program failed']
+2012-05-02 19:49:42,463 Finished generation: 13 Max generations: 100
+2012-05-02 19:49:42,464 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:42,464 ['mapping variables into program failed']
+2012-05-02 19:49:42,668 Finished generation: 14 Max generations: 100
+2012-05-02 19:49:42,668 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:42,669 ['mapping variables into program failed']
+2012-05-02 19:49:42,872 Finished generation: 15 Max generations: 100
+2012-05-02 19:49:42,872 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:42,873 ['mapping variables into program failed']
+2012-05-02 19:49:43,077 Finished generation: 16 Max generations: 100
+2012-05-02 19:49:43,077 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,078 ['mapping variables into program failed']
+2012-05-02 19:49:43,281 Finished generation: 17 Max generations: 100
+2012-05-02 19:49:43,282 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,282 ['mapping variables into program failed']
+2012-05-02 19:49:43,450 Finished generation: 18 Max generations: 100
+2012-05-02 19:49:43,450 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,450 ['mapping variables into program failed']
+2012-05-02 19:49:43,588 Finished generation: 19 Max generations: 100
+2012-05-02 19:49:43,589 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,589 ['mapping variables into program failed']
+2012-05-02 19:49:43,794 Finished generation: 20 Max generations: 100
+2012-05-02 19:49:43,794 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,795 ['mapping variables into program failed']
+2012-05-02 19:49:43,997 Finished generation: 21 Max generations: 100
+2012-05-02 19:49:43,998 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:43,998 ['mapping variables into program failed']
+2012-05-02 19:49:44,202 Finished generation: 22 Max generations: 100
+2012-05-02 19:49:44,202 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:44,203 ['mapping variables into program failed']
+2012-05-02 19:49:44,375 Finished generation: 23 Max generations: 100
+2012-05-02 19:49:44,375 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:49:44,376 ['mapping variables into program failed']
+2012-05-02 19:49:44,408 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:49:44,408 completed run: generations: 24, best member:22 fitness: 0.0
+2012-05-02 19:50:13,742 started run
+2012-05-02 19:50:13,866 Finished generation: 0 Max generations: 500
+2012-05-02 19:50:13,867 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:13,867 ['mapping variables into program failed']
+2012-05-02 19:50:13,989 Finished generation: 1 Max generations: 500
+2012-05-02 19:50:13,989 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:13,990 ['mapping variables into program failed']
+2012-05-02 19:50:14,112 Finished generation: 2 Max generations: 500
+2012-05-02 19:50:14,112 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,112 ['mapping variables into program failed']
+2012-05-02 19:50:14,234 Finished generation: 3 Max generations: 500
+2012-05-02 19:50:14,234 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,234 ['mapping variables into program failed']
+2012-05-02 19:50:14,356 Finished generation: 4 Max generations: 500
+2012-05-02 19:50:14,357 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,357 ['mapping variables into program failed']
+2012-05-02 19:50:14,479 Finished generation: 5 Max generations: 500
+2012-05-02 19:50:14,479 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,479 ['mapping variables into program failed']
+2012-05-02 19:50:14,601 Finished generation: 6 Max generations: 500
+2012-05-02 19:50:14,601 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,601 ['mapping variables into program failed']
+2012-05-02 19:50:14,724 Finished generation: 7 Max generations: 500
+2012-05-02 19:50:14,724 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,724 ['mapping variables into program failed']
+2012-05-02 19:50:14,846 Finished generation: 8 Max generations: 500
+2012-05-02 19:50:14,846 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,846 ['mapping variables into program failed']
+2012-05-02 19:50:14,968 Finished generation: 9 Max generations: 500
+2012-05-02 19:50:14,969 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:14,969 ['mapping variables into program failed']
+2012-05-02 19:50:15,090 Finished generation: 10 Max generations: 500
+2012-05-02 19:50:15,090 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:15,090 ['mapping variables into program failed']
+2012-05-02 19:50:15,212 Finished generation: 11 Max generations: 500
+2012-05-02 19:50:15,212 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:15,212 ['mapping variables into program failed']
+2012-05-02 19:50:15,334 Finished generation: 12 Max generations: 500
+2012-05-02 19:50:15,335 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:15,335 ['mapping variables into program failed']
+2012-05-02 19:50:15,458 Finished generation: 13 Max generations: 500
+2012-05-02 19:50:15,459 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:15,459 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+m)):
+        tpredict=255
+    elif ((std-std)>(9+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:15,581 Finished generation: 14 Max generations: 500
+2012-05-02 19:50:15,581 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:15,582 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+m)):
+        tpredict=255
+    elif ((std-std)>(9+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:15,704 Finished generation: 15 Max generations: 500
+2012-05-02 19:50:15,704 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:15,704 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+m)):
+        tpredict=255
+    elif ((std-std)>(9+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:15,828 Finished generation: 16 Max generations: 500
+2012-05-02 19:50:15,828 best_value: 765.0 median: 1000.0 mean: 995.3
+2012-05-02 19:50:15,829 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+m)):
+        tpredict=255
+    elif ((std-1)>(m-std)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:15,953 Finished generation: 17 Max generations: 500
+2012-05-02 19:50:15,953 best_value: 765.0 median: 1000.0 mean: 990.6
+2012-05-02 19:50:15,953 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+otsu)):
+        tpredict=255
+    elif ((std-8)>(m-std)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:16,078 Finished generation: 18 Max generations: 500
+2012-05-02 19:50:16,078 best_value: 765.0 median: 1000.0 mean: 983.55
+2012-05-02 19:50:16,078 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=0+m
+    if ((m*m)>(otsu+otsu)):
+        tpredict=255
+    elif ((std-8)>(m-std)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:16,141 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:50:16,142 completed run: generations: 19, best member:91 fitness: 0.0
+2012-05-02 19:50:26,676 started run
+2012-05-02 19:50:26,803 Finished generation: 0 Max generations: 500
+2012-05-02 19:50:26,803 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:26,803 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=minOtsu+4
+    if ((std*minOtsu)>(otsu*minOtsu)):
+        tpredict=255
+    elif ((otsu+m)>(std+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:26,930 Finished generation: 1 Max generations: 500
+2012-05-02 19:50:26,930 best_value: 765.0 median: 1000.0 mean: 992.95
+2012-05-02 19:50:26,931 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=minOtsu+4
+    if ((std*minOtsu)>(otsu*minOtsu)):
+        tpredict=255
+    elif ((otsu+m)>(std+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:27,058 Finished generation: 2 Max generations: 500
+2012-05-02 19:50:27,058 best_value: 765.0 median: 1000.0 mean: 988.25
+2012-05-02 19:50:27,058 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=minOtsu+4
+    if ((std*minOtsu)>(otsu*minOtsu)):
+        tpredict=255
+    elif ((otsu+m)>(std+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:27,186 Finished generation: 3 Max generations: 500
+2012-05-02 19:50:27,186 best_value: 765.0 median: 1000.0 mean: 983.55
+2012-05-02 19:50:27,186 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=minOtsu+4
+    if ((std*minOtsu)>(otsu*minOtsu)):
+        tpredict=255
+    elif ((otsu+m)>(std+minOtsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:27,318 Finished generation: 4 Max generations: 500
+2012-05-02 19:50:27,318 best_value: 510.0 median: 1000.0 mean: 964.35
+2012-05-02 19:50:27,318 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=minOtsu+4
+    if ((m+m)>(otsu*std)):
+        tpredict=255
+    elif ((otsu+m)>(std+otsu)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:27,384 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:50:27,384 completed run: generations: 5, best member:60 fitness: 0.0
+2012-05-02 19:50:45,198 started run
+2012-05-02 19:50:45,324 Finished generation: 0 Max generations: 500
+2012-05-02 19:50:45,325 best_value: 510.0 median: 1000.0 mean: 995.1
+2012-05-02 19:50:45,325 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=std-6
+    if ((minOtsu+std)>(minOtsu*otsu)):
+        tpredict=255
+    elif ((otsu+std)>(2-m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:45,452 Finished generation: 1 Max generations: 500
+2012-05-02 19:50:45,452 best_value: 510.0 median: 1000.0 mean: 992.75
+2012-05-02 19:50:45,452 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=std-6
+    if ((minOtsu+std)>(minOtsu*otsu)):
+        tpredict=255
+    elif ((otsu+std)>(2-m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:45,579 Finished generation: 2 Max generations: 500
+2012-05-02 19:50:45,580 best_value: 510.0 median: 1000.0 mean: 985.7
+2012-05-02 19:50:45,580 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=std-6
+    if ((minOtsu+std)>(minOtsu*otsu)):
+        tpredict=255
+    elif ((otsu+std)>(2-m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:45,642 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:50:45,643 completed run: generations: 3, best member:73 fitness: 0.0
+2012-05-02 19:50:57,336 started run
+2012-05-02 19:50:57,461 Finished generation: 0 Max generations: 500
+2012-05-02 19:50:57,461 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:57,461 ['mapping variables into program failed']
+2012-05-02 19:50:57,585 Finished generation: 1 Max generations: 500
+2012-05-02 19:50:57,585 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:57,585 ['mapping variables into program failed']
+2012-05-02 19:50:57,708 Finished generation: 2 Max generations: 500
+2012-05-02 19:50:57,709 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:57,709 ['mapping variables into program failed']
+2012-05-02 19:50:57,831 Finished generation: 3 Max generations: 500
+2012-05-02 19:50:57,832 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:57,832 ['mapping variables into program failed']
+2012-05-02 19:50:57,954 Finished generation: 4 Max generations: 500
+2012-05-02 19:50:57,954 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:57,955 ['mapping variables into program failed']
+2012-05-02 19:50:58,077 Finished generation: 5 Max generations: 500
+2012-05-02 19:50:58,077 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:58,078 ['mapping variables into program failed']
+2012-05-02 19:50:58,199 Finished generation: 6 Max generations: 500
+2012-05-02 19:50:58,200 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:58,200 ['mapping variables into program failed']
+2012-05-02 19:50:58,323 Finished generation: 7 Max generations: 500
+2012-05-02 19:50:58,323 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:58,323 ['mapping variables into program failed']
+2012-05-02 19:50:58,447 Finished generation: 8 Max generations: 500
+2012-05-02 19:50:58,447 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:58,447 ['mapping variables into program failed']
+2012-05-02 19:50:58,570 Finished generation: 9 Max generations: 500
+2012-05-02 19:50:58,570 best_value: 1000.0 median: 1000.0 mean: 1000.0
+2012-05-02 19:50:58,570 ['mapping variables into program failed']
+2012-05-02 19:50:58,694 Finished generation: 10 Max generations: 500
+2012-05-02 19:50:58,694 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:58,694 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*9
+    if ((minOtsu-4)>(m+minOtsu)):
+        tpredict=255
+    elif ((otsu*otsu)>(minOtsu+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:58,817 Finished generation: 11 Max generations: 500
+2012-05-02 19:50:58,817 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:50:58,817 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*9
+    if ((minOtsu-4)>(m+minOtsu)):
+        tpredict=255
+    elif ((otsu*otsu)>(minOtsu+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:50:58,877 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:50:58,877 completed run: generations: 12, best member:84 fitness: 0.0
+2012-05-02 19:51:05,405 started run
+2012-05-02 19:51:05,531 Finished generation: 0 Max generations: 500
+2012-05-02 19:51:05,531 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:51:05,531 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:05,656 Finished generation: 1 Max generations: 500
+2012-05-02 19:51:05,657 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:51:05,657 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:05,780 Finished generation: 2 Max generations: 500
+2012-05-02 19:51:05,780 best_value: 765.0 median: 1000.0 mean: 997.65
+2012-05-02 19:51:05,780 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:05,903 Finished generation: 3 Max generations: 500
+2012-05-02 19:51:05,903 best_value: 765.0 median: 1000.0 mean: 995.3
+2012-05-02 19:51:05,904 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:06,028 Finished generation: 4 Max generations: 500
+2012-05-02 19:51:06,029 best_value: 765.0 median: 1000.0 mean: 992.95
+2012-05-02 19:51:06,029 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:06,154 Finished generation: 5 Max generations: 500
+2012-05-02 19:51:06,155 best_value: 765.0 median: 1000.0 mean: 985.9
+2012-05-02 19:51:06,155 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:06,280 Finished generation: 6 Max generations: 500
+2012-05-02 19:51:06,281 best_value: 765.0 median: 1000.0 mean: 978.85
+2012-05-02 19:51:06,281 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*std
+    if ((std+otsu)>(5*minOtsu)):
+        tpredict=255
+    elif ((std-std)>(std+m)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:06,411 Finished generation: 7 Max generations: 500
+2012-05-02 19:51:06,411 best_value: 510.0 median: 1000.0 mean: 955.15
+2012-05-02 19:51:06,411 trainingset=[[0,0,0,0,0],[1,1,1,1,255],[2,2,2,2,255],[2,2,2,2,255]]
+total = 0.0
+delta = 0.0
+for i in xrange(len(trainingset)):
+    m,std,otsu,minOtsu,t = trainingset[i]
+    m=float(m)
+    std=float(std)
+    otsu=float(otsu)
+    minOtsu=float(minOtsu)
+    t=float(t)
+    tpredict=m*7
+    if ((otsu+std)>(std*m)):
+        tpredict=255
+    elif ((minOtsu-std)>(m*1)):
+        tpredict=0
+    else:
+        tpredict=otsu-minOtsu
+    delta = float(tpredict) - float(t)
+    total += abs(delta)
+
+fitness = float(total)
+self.set_bnf_variable('<fitness>', fitness)
+
+2012-05-02 19:51:06,481 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 19:51:06,481 completed run: generations: 8, best member:22 fitness: 0.0
+2012-05-02 20:17:17,496 started run
+2012-05-02 20:17:17,737 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 20:17:17,737 completed run: generations: 0, best member:25 fitness: 0.0
+2012-05-02 20:17:25,128 started run
+2012-05-02 20:17:25,197 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-02 20:17:25,197 completed run: generations: 0, best member:3 fitness: 0.0
+2012-05-03 18:02:43,298 started run
+2012-05-03 18:02:43,430 stopping processing due to best value, 0.0, better than target value, 0.01
+2012-05-03 18:02:43,430 completed run: generations: 0, best member:19 fitness: 0.0

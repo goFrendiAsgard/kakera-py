@@ -1,0 +1,27 @@
+PROGRESS
+    - "Deterministic" Random generator has been created
+    - Genetics Algorithm class has been created
+    - Grammatical Evolution class has been created (inherited from Genetics Algorithm) and implemented
+
+PROBLEM
+    - the nature of GE <-- it is purely random trial-error
+    - GE is exhaustive
+    - it is too late to change the topics
+    - Get the ground-truth in a convenient form
+    
+SOLUTION
+    - The scenario should be changed
+    - It is related to "how do we usually think"
+        some tasks are solved by using deterministic approach (e.g : calculate this : f(x) = x^2+3x+1, for x=4)
+        some tasks are solved by using trial-error approach (e.g : we should try some of all possible value to find the best threshold)
+    - Feature construction by using GE (already make Go_GEFCS class), classification by using neural network (possibly use pyneurgen)
+    - More regression than classification
+    
+ANOTHER PROBLEM
+    - Is it true that pearson-correlation can be used?
+    
+FUTURE WORKS
+    - Solve the problem
+    - finish the implementation
+
+feature extraction in local thresholding problem by using grammatical evolution
