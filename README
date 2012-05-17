@@ -1,0 +1,12 @@
+"kakera" means "pieces" in japanese. That's it, kakera-py is pieces I made to learn python and doing homework. It is much more effective than PHP since there are already a bunch of packages available for python.
+
+To use this, you (or future me) will need to install:
+-python 2.7
+-numpy
+-scipy
+-scikits-learn
+-scikits-image
+and optionally
+-eclipse with pydev
+
+EOF :D
