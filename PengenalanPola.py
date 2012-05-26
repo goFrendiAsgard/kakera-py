@@ -13,21 +13,26 @@ from abaloneData import abaloneData
 
 ge = Go_GEFCS()
 ge.random = Go_Random(randomFunction)
+ge.crossoverRate = 30
+ge.mutationRate = 10
+ge.newRate = 20
+ge.elitismRate = 5
 ge.maxEpoch = 60
 ge.populationSize = 300
+ge.maxCodon = 25
 ge.startExpr = '<EXPR>'
 ge.grammar = {
     '<EXPR>' : [
             {'become' : '(<EXPR>)<OP>(<EXPR>)', 'p' : 3},
-            {'become' : '<VAR>', 'p' : 6},
-            {'become' : '<NUM>', 'p' : 2}
+            {'become' : '<VAR>', 'p' : 8},
+            {'become' : '<NUM>', 'p' : 1}
         ],
     '<OP>' : [
             {'become' : '+', 'p' : 4},
-            {'become' : '-', 'p' : 4},
+            {'become' : '-', 'p' : 3},
             {'become' : '*', 'p' : 4},
-            {'become' : '/', 'p' : 3},
-            {'become' : '**', 'p' : 3}
+            {'become' : '/', 'p' : 2},
+            {'become' : '**', 'p' : 1}
         ],
     '<VAR>' : [
             {'become' : 'sex', 'p' : 3},
@@ -38,7 +43,7 @@ ge.grammar = {
             {'become' : 'shucked_weight', 'p' : 3},
             {'become' : 'viscera_weight', 'p' : 3},
             {'become' : 'shell_weight', 'p' : 3},
-            {'become' : 'rings', 'p' : 2},
+            {'become' : 'rings', 'p' : 3},
         ],
     '<NUM>' : [
             {'become' : '<DIGIT>.<DIGIT>', 'p' : 1},
@@ -63,7 +68,7 @@ ge.grammar = {
 
 trainingSet = {
         'header' : ['sex', 'length', 'diameter', 'height', 'whole_weight', 'shucked_weight', 'viscera_weight', 'shell_weight', 'rings'],
-        'target' : 'rings+1.5',
+        'target' : 'rings',#'rings+1.5',
         'data' : abaloneData
     }
 ge.trainingSet = trainingSet
@@ -73,7 +78,7 @@ ge.printAllPhenotype()
 
 #good features should have correlation with the output (done),
 #good features should not be correlated each other
-bestPhenotype = ge.getBestPhenotype(9, 0)
+bestPhenotype = ge.getBestPhenotype(4, 0)
 for phenotype in bestPhenotype:
     print(phenotype)
 
@@ -102,4 +107,17 @@ print all_targets
 from sklearn import svm
 clf = svm.SVR(kernel='linear', scale_C=True)
 clf.fit(all_inputs, all_targets)
-print(clf.predict(all_inputs))
+all_predicts = clf.predict(all_inputs)
+print(all_predicts)
+
+right = 0
+wrong = 0
+mse = 0.0
+for i in xrange(len(all_targets)):
+    mse += pow((all_targets[i]-all_predicts[i]), 2)
+    if abs(all_targets[i]-all_predicts[i])>1:
+        wrong +=1
+    else:
+        right +=1
+mse = pow(mse, 0.5)
+print('right : %d, wrong : %d, mse : %5.3f' %(right, wrong, mse))

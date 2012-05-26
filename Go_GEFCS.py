@@ -9,8 +9,6 @@ from Go_GrammaticalEvolution import Go_GrammaticalEvolution
 from scipy.stats.stats import pearsonr
 from numpy import std
 
-from numpy import mean
-
 class Go_GEFCS(Go_GrammaticalEvolution):
     
     def _uniqueList(self, inlist): 
@@ -22,35 +20,27 @@ class Go_GEFCS(Go_GrammaticalEvolution):
         return uniques
 
     def _featureFitness(self, dimension, target):
-        clusters = self._uniqueList(target)    
-        clusteredDimension = {}
-        minVal = {}
-        maxVal = {}
-        #means = {}
-        #stdev = {}
-        for cluster in clusters:
-            clusteredDimension[cluster] = []
-            for i in xrange(len(dimension)):
-                if target[i]==cluster:
-                    clusteredDimension[cluster].append(dimension[i])
-            minVal[cluster] = min(clusteredDimension[cluster])
-            maxVal[cluster] = max(clusteredDimension[cluster])
-            #means[cluster] = mean(clusteredDimension[cluster])
-            #stdev[cluster] = std(clusteredDimension[cluster])
+        overlap_penalty = 0.1
+        different_neighbor_penalty = 0.01
+        cluster_count = len(self._uniqueList(target))
+        ideal_different_neighbor_count = cluster_count -1
         
-        overlap = 0
-        for i in xrange(len(clusters)):
-            iCluster = clusters[i]
-            for j in xrange(i+1,len(clusters)):
-                jCluster = clusters[j]
-                if minVal[iCluster]<=maxVal[jCluster] and minVal[iCluster]>=minVal[jCluster]:
-                    limit = min([maxVal[iCluster], maxVal[jCluster]])
-                    overlap += float(limit)-float(minVal[iCluster])+1
-                elif maxVal[iCluster]<=maxVal[jCluster] and maxVal[iCluster]>=minVal[jCluster]:
-                    limit = max([minVal[iCluster], minVal[jCluster]])
-                    overlap += float(maxVal[iCluster])-float(limit)+1
-        # the criterion: minimum overlap
-        return (1/(0.001+overlap))/1000
+        dimension_target = []
+        for i in xrange(len(dimension)):
+            dimension_target.append([dimension[i], target[i]])
+        dimension_target.sort()
+        
+        bad = 0.0    
+        different_neighbor_count = 0 
+        for i in xrange(len(dimension_target)):
+            if(i>=0) and (i<len(dimension_target)-1):  
+                if dimension_target[i+1][1] != dimension_target[i][1]:
+                    different_neighbor_count += 1
+                    if different_neighbor_count>ideal_different_neighbor_count:
+                        bad += different_neighbor_penalty 
+                    if dimension_target[i+1][0] == dimension_target[i][0]:
+                        bad += overlap_penalty
+        return (1/(0.001+bad))/1000
     
     def _fitnessFunction(self, chromosome): 
         #all variable here are written by using underscore prefix

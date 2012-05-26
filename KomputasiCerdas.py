@@ -15,9 +15,9 @@ ge = Go_GEFCS()
 ge.random = Go_Random(randomFunction)
 ge.grammar = {
     '<EXPR>' : [
-            {'become' : '(<EXPR>)<OP>(<EXPR>)', 'p' : 3},
-            {'become' : '<VAR>', 'p' : 5},
-            {'become' : '<NUM>', 'p' : 2}
+            {'become' : '(<EXPR>)<OP>(<EXPR>)', 'p' : 2},
+            {'become' : '<VAR>', 'p' : 8},
+            {'become' : '<NUM>', 'p' : 1}
         ],
     '<OP>' : [
             {'become' : '+', 'p' : 4},
@@ -55,7 +55,7 @@ ge.startExpr = '<EXPR>'
 
 
 trainingSet = {
-        'header' : ['otsu', 'stdev', 'mean', 'minOtsu', 't'],
+        'header' : ['otsu', 'stdev', 'mean', 't', 'minOtsu'],
         'target' : 't',
         'data' : thresholdingData
     }
@@ -83,7 +83,6 @@ for trainingData in trainingSet['data']:
         exec('_result = '+str(bestPhenotype[i])) in sandbox
         inputs.append(float(sandbox['_result']))
     exec('_result = '+str(trainingSet['target'])) in sandbox
-    #targets.append(sandbox['_result'])
     targets = float(sandbox['_result'])
     all_inputs.append(inputs)
     all_targets.append(targets)
@@ -93,6 +92,16 @@ print all_targets
 
 
 from sklearn import svm
-clf = svm.SVR(kernel='linear', scale_C=True)
+clf = svm.SVC(kernel='linear', scale_C=True)
 clf.fit(all_inputs, all_targets)
-print(clf.predict(all_inputs))
+all_predicts = clf.predict(all_inputs)
+print(all_predicts)
+
+right = 0
+wrong = 0
+for i in xrange(len(all_targets)):
+    if abs(all_targets[i]-all_predicts[i])>1:
+        wrong +=1
+    else:
+        right +=1
+print('right : %d, wrong %d' %(right, wrong))

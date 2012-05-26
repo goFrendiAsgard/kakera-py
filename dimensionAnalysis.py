@@ -61,6 +61,30 @@ def performSVM(input, target):
     print(clf.predict(inputs))
     return clf
 
+def goodness(dimension, target):
+    overlap_penalty = 0.1
+    different_neighbor_penalty = 0.01
+    cluster_count = len(uniqueList(target))
+    ideal_different_neighbor_count = cluster_count -1
+    
+    dimension_target = []
+    for i in xrange(len(dimension)):
+        dimension_target.append([dimension[i], target[i]])
+    dimension_target.sort()
+    
+    bad = 0.0    
+    different_neighbor_count = 0 
+    for i in xrange(len(dimension_target)):
+        if(i>=0) and (i<len(dimension_target)-1):  
+            if dimension_target[i+1][1] != dimension_target[i][1]:
+                different_neighbor_count += 1
+                if different_neighbor_count>ideal_different_neighbor_count:
+                    bad += different_neighbor_penalty 
+                if dimension_target[i+1][0] == dimension_target[i][0]:
+                    bad += overlap_penalty
+    return (1/(0.001+bad))/1000
+    #return bad
+
 def overlapCount(dimension, target):
     clusters = uniqueList(target)    
     clusteredDimension = {}
@@ -121,7 +145,7 @@ def corr(dimension, target):
     return corr
 
 def printAll(label, dimension, target):
-    print('Variable : %s {%s}\t betweenClassVarriance  : %5.3f,\t correlation : %5.3f,\t nonOverlapped : %5.3f ' % (label, ','.join(map(str,dimension)), betweenClassVariance(dimension,target), corr(dimension,target), overlapCount(dimension, target)))
+    print('Variable : %s {%s}\t betweenClassVarriance  : %5.3f,\t correlation : %5.3f,\t nonOverlapped : %5.3f goodness : %5.3f ' % (label, ','.join(map(str,dimension)), betweenClassVariance(dimension,target), corr(dimension,target), overlapCount(dimension, target), goodness(dimension, target)))
 
 x=[0,1,2,0,3,0,4,0,5,0,6,0]
 y=[0,0,0,2,0,3,0,4,0,5,0,6]
