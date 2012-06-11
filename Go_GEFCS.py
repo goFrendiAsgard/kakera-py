@@ -20,7 +20,7 @@ class Go_GEFCS(Go_GrammaticalEvolution):
         return uniques
 
     def _featureFitness(self, dimension, target):
-        overlap_penalty = 0.1
+        overlap_penalty = 0.5
         different_neighbor_penalty = 0.01
         cluster_count = len(self._uniqueList(target))
         ideal_different_neighbor_count = cluster_count -1

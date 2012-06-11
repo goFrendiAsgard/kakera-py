@@ -29,11 +29,7 @@ def getImageFeature(imagefile, groundTruthImageFile, m=3, n=3):
             groundTruthImagePart[i].append([])
             imagePart[i][j] = image[i*imagePartHeight:(1+i)*imagePartHeight, j*imagePartWidth:(1+j)*imagePartWidth]
             groundTruthImagePart[i][j] = groundTruthImage[i*imagePartHeight:(1+i)*imagePartHeight, j*imagePartWidth:(1+j)*imagePartWidth]
-            #newFilename = imagefile[0:-4]+'_'+str(i)+'_'+str(j)+'.png'
-            #imsave(newFilename, imagePart[i][j])
-            
-            
-            
+                        
             bestTruePixel = 0
             bestThresh = 0
             for k in xrange(255):
@@ -95,4 +91,5 @@ if __name__ == '__main__':
     data.append(getImageFeature(os.path.join(dir_path, 'images/jammed.png'), os.path.join(dir_path, 'images/jammed-groundtruth.png')))
     data.append(getImageFeature(os.path.join(dir_path, 'images/recipe.png'), os.path.join(dir_path, 'images/recipe-groundtruth.png')))
     data.append(getImageFeature(os.path.join(dir_path, 'images/article.png'), os.path.join(dir_path, 'images/article-groundtruth.png')))
+    
     print(data)

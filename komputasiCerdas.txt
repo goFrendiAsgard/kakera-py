@@ -1,0 +1,1418 @@
+PROGRESS
+    - "Deterministic" Random generator has been created
+    - Genetics Algorithm class has been created
+    - Grammatical Evolution class has been created (inherited from Genetics Algorithm) and implemented
+
+PROBLEM
+    - the nature of GE <-- it is purely random trial-error
+    - GE is exhaustive
+    - it is too late to change the topics
+    - Get the ground-truth in a convenient form
+    
+SOLUTION
+    - The scenario should be changed
+    - It is related to "how do we usually think"
+        some tasks are solved by using deterministic approach (e.g : calculate this : f(x) = x^2+3x+1, for x=4)
+        some tasks are solved by using trial-error approach (e.g : we should try some of all possible value to find the best threshold)
+    - Feature construction by using GE (already make Go_GEFCS class), classification by using neural network (possibly use pyneurgen)
+    - More regression than classification
+    
+ANOTHER PROBLEM
+    - Is it true that pearson-correlation can be used?
+    
+FUTURE WORKS
+    - Solve the problem
+    - finish the implementation
+
+feature extraction in local thresholding problem by using grammatical evolution
+
+Generation 0, best fitness : 0.00901
+Generation 1, best fitness : 0.00901
+Generation 2, best fitness : 0.00901
+Generation 3, best fitness : 0.00901
+Generation 4, best fitness : 0.00901
+Generation 5, best fitness : 0.00901
+Generation 6, best fitness : 0.00901
+Generation 7, best fitness : 0.00901
+Generation 8, best fitness : 0.00901
+Generation 9, best fitness : 0.00901
+Generation 10, best fitness : 0.00901
+Generation 11, best fitness : 0.00901
+Generation 12, best fitness : 0.00901
+Generation 13, best fitness : 0.00901
+Generation 14, best fitness : 0.00901
+Generation 15, best fitness : 0.00901
+Generation 16, best fitness : 0.00901
+Generation 17, best fitness : 0.00901
+Generation 18, best fitness : 0.00901
+Generation 19, best fitness : 0.00990
+Generation 20, best fitness : 0.00990
+Generation 21, best fitness : 0.00990
+Generation 22, best fitness : 0.00990
+Generation 23, best fitness : 0.00990
+Generation 24, best fitness : 0.00990
+Generation 25, best fitness : 0.00990
+Generation 26, best fitness : 0.00990
+Generation 27, best fitness : 0.00990
+Generation 28, best fitness : 0.00990
+Generation 29, best fitness : 0.00990
+Generation 30, best fitness : 0.00990
+Generation 31, best fitness : 0.00990
+Generation 32, best fitness : 0.00990
+Generation 33, best fitness : 0.00990
+Generation 34, best fitness : 0.00990
+Generation 35, best fitness : 0.00990
+Generation 36, best fitness : 0.00990
+Generation 37, best fitness : 0.00990
+Generation 38, best fitness : 0.00990
+Generation 39, best fitness : 0.00990
+Generation 40, best fitness : 0.00990
+Generation 41, best fitness : 0.00990
+Generation 42, best fitness : 0.00990
+Generation 43, best fitness : 0.00990
+Generation 44, best fitness : 0.00990
+Generation 45, best fitness : 0.00990
+Generation 46, best fitness : 0.00990
+Generation 47, best fitness : 0.00990
+Generation 48, best fitness : 0.00990
+Generation 49, best fitness : 0.00990
+Generation 50, best fitness : 0.00990
+Generation 51, best fitness : 0.00990
+Generation 52, best fitness : 0.00990
+Generation 53, best fitness : 0.00990
+Generation 54, best fitness : 0.00990
+Generation 55, best fitness : 0.00990
+Generation 56, best fitness : 0.00990
+Generation 57, best fitness : 0.00990
+Generation 58, best fitness : 0.00990
+Generation 59, best fitness : 0.00990
+Generation 60, best fitness : 0.00990
+Generation 61, best fitness : 0.00990
+Generation 62, best fitness : 0.00990
+Generation 63, best fitness : 0.00990
+Generation 64, best fitness : 0.00990
+Generation 65, best fitness : 0.00990
+Generation 66, best fitness : 0.00990
+Generation 67, best fitness : 0.00990
+Generation 68, best fitness : 0.00990
+Generation 69, best fitness : 0.00990
+Generation 70, best fitness : 0.00990
+Generation 71, best fitness : 0.00990
+Generation 72, best fitness : 0.00990
+Generation 73, best fitness : 0.00990
+Generation 74, best fitness : 0.00990
+Generation 75, best fitness : 0.00990
+Generation 76, best fitness : 0.00990
+Generation 77, best fitness : 0.00990
+Generation 78, best fitness : 0.00990
+Generation 79, best fitness : 0.00990
+Generation 80, best fitness : 0.00990
+Generation 81, best fitness : 0.00990
+Generation 82, best fitness : 0.00990
+Generation 83, best fitness : 0.00990
+Generation 84, best fitness : 0.00990
+Generation 85, best fitness : 0.00990
+Generation 86, best fitness : 0.00990
+Generation 87, best fitness : 0.00990
+Generation 88, best fitness : 0.00990
+Generation 89, best fitness : 0.00990
+Generation 90, best fitness : 0.00990
+Generation 91, best fitness : 0.00990
+Generation 92, best fitness : 0.00990
+Generation 93, best fitness : 0.00990
+Generation 94, best fitness : 0.00990
+Generation 95, best fitness : 0.00990
+Generation 96, best fitness : 0.00990
+Generation 97, best fitness : 0.00990
+Generation 98, best fitness : 0.00990
+Generation 99, best fitness : 0.00990
+Expression: (((stdev)*(stdev))-(minOtsu))*(minOtsu)
+Fitness: 0.0099009401
+
+Expression: ((((stdev)*(otsu))-(otsu))*(stdev))*(stdev)
+Fitness: 0.0099009301
+
+Expression: ((((stdev)/(otsu))-(mean))-(stdev))*(otsu)
+Fitness: 0.0099009301
+
+Expression: ((((stdev)-(minOtsu))-(mean))-(minOtsu))+(otsu)
+Fitness: 0.0099009301
+
+Expression: (((otsu)*((minOtsu)+(otsu)))-(stdev))*(minOtsu)
+Fitness: 0.0099009301
+
+Expression: (((minOtsu)+((stdev)+((minOtsu)+(otsu))))*(stdev))-(minOtsu)
+Fitness: 0.0099009201
+
+Expression: (minOtsu)-(((otsu)+((stdev)*((stdev)*(mean))))+(stdev))
+Fitness: 0.0099009201
+
+Expression: stdev
+Fitness: 0.0090089890
+
+Expression: (stdev)*(stdev)
+Fitness: 0.0090089790
+
+Expression: (otsu)*(stdev)
+Fitness: 0.0090089790
+
+Expression: (stdev)+(stdev)
+Fitness: 0.0090089790
+
+Expression: (stdev)*(otsu)
+Fitness: 0.0090089790
+
+Expression: (stdev)*((stdev)-(mean))
+Fitness: 0.0090089690
+
+Expression: (minOtsu)/((stdev)*(minOtsu))
+Fitness: 0.0090089690
+
+Expression: (minOtsu)/((minOtsu)/(stdev))
+Fitness: 0.0090089690
+
+Expression: (((stdev)*(otsu))*(mean))+((stdev)+(otsu))
+Fitness: 0.0090089590
+
+Expression: (((stdev)+(stdev))-(minOtsu))+(minOtsu)
+Fitness: 0.0090089590
+
+Expression: (((minOtsu)-(stdev))-(minOtsu))-(stdev)
+Fitness: 0.0090089590
+
+Expression: (stdev)*((otsu)-((otsu)/(minOtsu)))
+Fitness: 0.0090089590
+
+Expression: (((stdev)*(stdev))-(minOtsu))+(minOtsu)
+Fitness: 0.0090089590
+
+Expression: (((otsu)-(minOtsu))-(minOtsu))*(stdev)
+Fitness: 0.0090089590
+
+Expression: (((minOtsu)/(minOtsu))*(stdev))+((mean)-(mean))
+Fitness: 0.0090089590
+
+Expression: (((minOtsu)/(minOtsu))/(stdev))+((mean)-(mean))
+Fitness: 0.0090089590
+
+Expression: ((otsu)-((minOtsu)+(mean)))+(stdev)
+Fitness: 0.0090089590
+
+Expression: (stdev)*((minOtsu)-((stdev)+(minOtsu)))
+Fitness: 0.0090089590
+
+Expression: ((stdev)/(((otsu)+(otsu))-((minOtsu)-(minOtsu))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0090089490
+
+Expression: ((((stdev)*(otsu))-(otsu))-(minOtsu))-(minOtsu)
+Fitness: 0.0090089490
+
+Expression: ((stdev)/((otsu)/((otsu)+(stdev))))*((mean)+((otsu)*(minOtsu)))
+Fitness: 0.0090089490
+
+Expression: ((stdev)/((stdev)+((otsu)*(minOtsu))))+(minOtsu)
+Fitness: 0.0090089490
+
+Expression: ((stdev)*(((otsu)-(minOtsu))-(minOtsu)))+((otsu)/(stdev))
+Fitness: 0.0090089490
+
+Expression: (((otsu)+((minOtsu)*((minOtsu)+(mean))))+(stdev))*(otsu)
+Fitness: 0.0090089390
+
+Expression: (((otsu)-((mean)*((stdev)+(otsu))))*(stdev))+((mean)*((stdev)*(otsu)))
+Fitness: 0.0090089390
+
+Expression: (stdev)*((stdev)-((((otsu)+(stdev))-(mean))/((mean)*(otsu))))
+Fitness: 0.0090089390
+
+Expression: ((((otsu)/(stdev))/((stdev)+((minOtsu)+(otsu))))-(otsu))-(minOtsu)
+Fitness: 0.0090089390
+
+Expression: ((otsu)+((stdev)/((minOtsu)-((stdev)*((minOtsu)/(minOtsu))))))*((stdev)+(mean))
+Fitness: 0.0090089290
+
+Expression: ((otsu)+((stdev)/((minOtsu)-((stdev)*((minOtsu)/(mean))))))*((stdev)+(mean))
+Fitness: 0.0090089290
+
+Expression: ((stdev)/((minOtsu)+((((otsu)/(stdev))+(minOtsu))*(minOtsu))))+(stdev)
+Fitness: 0.0090089290
+
+Expression: ((stdev)/((otsu)/((otsu)*((((mean)+((minOtsu)/(mean)))+((minOtsu)-(minOtsu)))+(minOtsu)))))*((mean)+((mean)*(otsu)))
+Fitness: 0.0090089190
+
+Expression: (((stdev)+((((otsu)/((mean)/(stdev)))+(otsu))*(stdev)))-(minOtsu))*(minOtsu)
+Fitness: 0.0090089190
+
+Expression: ((stdev)+((otsu)+((((otsu)/((mean)*(stdev)))+(otsu))*(stdev))))+(stdev)
+Fitness: 0.0090089190
+
+Expression: ((((((mean)+((minOtsu)-(mean)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0090089190
+
+Expression: (((stdev)+((((otsu)/((mean)+(stdev)))+(otsu))*(minOtsu)))-(minOtsu))*(minOtsu)
+Fitness: 0.0090089190
+
+Expression: ((minOtsu)+(((mean)+(stdev))*(((minOtsu)+((((stdev)+(minOtsu))+(minOtsu))/((mean)+(minOtsu))))*(stdev))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0090089190
+
+Expression: (mean)/(otsu)
+Fitness: 0.0082644328
+
+Expression: (otsu)+(stdev)
+Fitness: 0.0082644328
+
+Expression: (stdev)+(otsu)
+Fitness: 0.0082644328
+
+Expression: ((otsu)+(minOtsu))+((stdev)*(otsu))
+Fitness: 0.0082644228
+
+Expression: ((otsu)*(minOtsu))+((stdev)+(stdev))
+Fitness: 0.0082644228
+
+Expression: ((otsu)*(minOtsu))+(stdev)
+Fitness: 0.0082644228
+
+Expression: (mean)/((stdev)-(otsu))
+Fitness: 0.0082644228
+
+Expression: (stdev)*((stdev)+(mean))
+Fitness: 0.0082644228
+
+Expression: ((stdev)*(otsu))+(otsu)
+Fitness: 0.0082644228
+
+Expression: ((stdev)/(mean))+(stdev)
+Fitness: 0.0082644228
+
+Expression: (stdev)+((otsu)/(minOtsu))
+Fitness: 0.0082644228
+
+Expression: ((stdev)+(stdev))+(otsu)
+Fitness: 0.0082644228
+
+Expression: ((otsu)+((otsu)/(otsu)))+(stdev)
+Fitness: 0.0082644128
+
+Expression: (((stdev)+(stdev))-(minOtsu))+(mean)
+Fitness: 0.0082644128
+
+Expression: ((minOtsu)*((minOtsu)+(mean)))+(otsu)
+Fitness: 0.0082644128
+
+Expression: (minOtsu)-(((otsu)+(minOtsu))+(stdev))
+Fitness: 0.0082644128
+
+Expression: (((stdev)*(stdev))*(minOtsu))*(otsu)
+Fitness: 0.0082644128
+
+Expression: (((minOtsu)-(otsu))-(minOtsu))-(stdev)
+Fitness: 0.0082644128
+
+Expression: (((minOtsu)+(stdev))+(minOtsu))-(mean)
+Fitness: 0.0082644128
+
+Expression: ((otsu)+((minOtsu)*(stdev)))+(otsu)
+Fitness: 0.0082644128
+
+Expression: (minOtsu)-((((stdev)*(otsu))-(otsu))+(minOtsu))
+Fitness: 0.0082644028
+
+Expression: ((((stdev)-(otsu))*((mean)*(minOtsu)))*(minOtsu))*(otsu)
+Fitness: 0.0082644028
+
+Expression: (((minOtsu)+((stdev)+(minOtsu)))*(minOtsu))-(minOtsu)
+Fitness: 0.0082644028
+
+Expression: ((((otsu)-(minOtsu))-(otsu))-(stdev))*(mean)
+Fitness: 0.0082644028
+
+Expression: (((stdev)+((minOtsu)*(otsu)))-(mean))+(stdev)
+Fitness: 0.0082644028
+
+Expression: ((((stdev)*(otsu))-(otsu))-(minOtsu))+(minOtsu)
+Fitness: 0.0082644028
+
+Expression: (((stdev)+((minOtsu)*(otsu)))-(minOtsu))+(stdev)
+Fitness: 0.0082644028
+
+Expression: ((((otsu)/(otsu))-(otsu))-(stdev))*(otsu)
+Fitness: 0.0082644028
+
+Expression: (((minOtsu)+((stdev)*(minOtsu)))*(minOtsu))-(minOtsu)
+Fitness: 0.0082644028
+
+Expression: (((stdev)+((stdev)/(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: 0.0082644028
+
+Expression: (((stdev)+((stdev)-(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: 0.0082644028
+
+Expression: (((otsu)-((otsu)*((mean)+(otsu))))-(stdev))*(stdev)
+Fitness: 0.0082643928
+
+Expression: ((otsu)+((stdev)+((stdev)/((otsu)+(otsu)))))+(stdev)
+Fitness: 0.0082643928
+
+Expression: ((stdev)/((otsu)/((mean)*((stdev)/(minOtsu)))))*((mean)+((minOtsu)*(minOtsu)))
+Fitness: 0.0082643928
+
+Expression: (((otsu)-((otsu)+((minOtsu)+(minOtsu))))-(stdev))+(mean)
+Fitness: 0.0082643928
+
+Expression: ((stdev)+((otsu)+((minOtsu)*((minOtsu)+(mean)))))+(stdev)
+Fitness: 0.0082643928
+
+Expression: (stdev)*(((minOtsu)+(((otsu)*(minOtsu))-(stdev)))-(minOtsu))
+Fitness: 0.0082643928
+
+Expression: ((stdev)+((stdev)+(otsu)))*(((otsu)*((otsu)/((minOtsu)+(minOtsu))))+(minOtsu))
+Fitness: 0.0082643928
+
+Expression: ((stdev)/((otsu)/((otsu)*((mean)-(otsu)))))*((mean)+((mean)*(minOtsu)))
+Fitness: 0.0082643928
+
+Expression: (stdev)+((((otsu)/(stdev))/((stdev)+((minOtsu)+(otsu))))*(otsu))
+Fitness: 0.0082643928
+
+Expression: ((stdev)+((otsu)+((minOtsu)*((minOtsu)+(mean)))))+(minOtsu)
+Fitness: 0.0082643928
+
+Expression: (((stdev)+((minOtsu)*((minOtsu)+(mean))))-(minOtsu))-(minOtsu)
+Fitness: 0.0082643928
+
+Expression: ((minOtsu)+(((mean)+(stdev))*(((minOtsu)-(minOtsu))*(minOtsu))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0082643928
+
+Expression: (((otsu)-((minOtsu)*((mean)+(otsu))))-(stdev))+(minOtsu)
+Fitness: 0.0082643928
+
+Expression: ((minOtsu)/(((minOtsu)+(stdev))-((((otsu)*(otsu))+(mean))*((otsu)-(stdev)))))*((mean)*((otsu)*(minOtsu)))
+Fitness: 0.0082643828
+
+Expression: ((((((otsu)*(minOtsu))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0082643828
+
+Expression: ((((((minOtsu)+(minOtsu))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0082643828
+
+Expression: ((((((otsu)*(stdev))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0082643828
+
+Expression: ((minOtsu)+((minOtsu)+((((otsu)*((mean)+(otsu)))+(minOtsu))*(minOtsu))))*(minOtsu)
+Fitness: 0.0082643728
+
+Expression: (minOtsu)-(((((((minOtsu)+(minOtsu))+(minOtsu))-((stdev)/(minOtsu)))-(minOtsu))+(((otsu)-(mean))*(otsu)))+(stdev))
+Fitness: 0.0082643728
+
+Expression: (((stdev)+((((otsu)/((mean)+(stdev)))+(otsu))*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: 0.0082643728
+
+Expression: ((stdev)+((stdev)+((stdev)*(((((minOtsu)+(otsu))+(stdev))+(stdev))-(stdev)))))+(stdev)
+Fitness: 0.0082643728
+
+Expression: ((((((mean)+((mean)/(stdev)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0082643728
+
+Expression: (((stdev)+((((otsu)/((minOtsu)/(stdev)))+(otsu))*(stdev)))-(minOtsu))-(minOtsu)
+Fitness: 0.0082643728
+
+Expression: (((stdev)+((((otsu)/((mean)*(stdev)))+(otsu))*(stdev)))-(minOtsu))-(minOtsu)
+Fitness: 0.0082643728
+
+Expression: (minOtsu)+(((minOtsu)+(((otsu)*(((stdev)-(minOtsu))+(otsu)))/((stdev)*(minOtsu))))*(otsu))
+Fitness: 0.0082643728
+
+Expression: ((mean)*((((stdev)/(minOtsu))-((minOtsu)/((otsu)*((stdev)/(minOtsu)))))+(minOtsu)))+(otsu)
+Fitness: 0.0082643728
+
+Expression: ((((((minOtsu)/(otsu))+(otsu))-((stdev)+((otsu)+((stdev)/(otsu)))))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0082643728
+
+Expression: mean
+Fitness: 0.0076335678
+
+Expression: (stdev)-(mean)
+Fitness: 0.0076335578
+
+Expression: (mean)+(mean)
+Fitness: 0.0076335578
+
+Expression: (mean)/(minOtsu)
+Fitness: 0.0076335578
+
+Expression: (minOtsu)/(mean)
+Fitness: 0.0076335578
+
+Expression: (mean)*(otsu)
+Fitness: 0.0076335578
+
+Expression: (stdev)-(minOtsu)
+Fitness: 0.0076335578
+
+Expression: (minOtsu)-(stdev)
+Fitness: 0.0076335578
+
+Expression: (otsu)*(mean)
+Fitness: 0.0076335578
+
+Expression: ((minOtsu)*(minOtsu))*(stdev)
+Fitness: 0.0076335478
+
+Expression: (stdev)*((mean)-(otsu))
+Fitness: 0.0076335478
+
+Expression: (stdev)*((minOtsu)+(otsu))
+Fitness: 0.0076335478
+
+Expression: ((mean)*(otsu))+(minOtsu)
+Fitness: 0.0076335478
+
+Expression: (stdev)*((minOtsu)-(otsu))
+Fitness: 0.0076335478
+
+Expression: ((minOtsu)+(mean))-(minOtsu)
+Fitness: 0.0076335478
+
+Expression: ((stdev)+(mean))+(stdev)
+Fitness: 0.0076335478
+
+Expression: ((stdev)*(stdev))+(otsu)
+Fitness: 0.0076335478
+
+Expression: (minOtsu)*((stdev)+(otsu))
+Fitness: 0.0076335478
+
+Expression: (stdev)*((minOtsu)*(stdev))
+Fitness: 0.0076335478
+
+Expression: (stdev)*((otsu)-(minOtsu))
+Fitness: 0.0076335478
+
+Expression: ((mean)*(otsu))+(otsu)
+Fitness: 0.0076335478
+
+Expression: ((otsu)+(minOtsu))/(stdev)
+Fitness: 0.0076335478
+
+Expression: ((stdev)-(otsu))+(minOtsu)
+Fitness: 0.0076335478
+
+Expression: (((minOtsu)*(stdev))-(stdev))*(minOtsu)
+Fitness: 0.0076335378
+
+Expression: ((otsu)+((stdev)-(minOtsu)))+((mean)-(otsu))
+Fitness: 0.0076335378
+
+Expression: (stdev)+(((stdev)*(minOtsu))+(stdev))
+Fitness: 0.0076335378
+
+Expression: (((stdev)*(stdev))*(minOtsu))-(minOtsu)
+Fitness: 0.0076335378
+
+Expression: ((minOtsu)+((minOtsu)*(stdev)))*((mean)+((mean)*(mean)))
+Fitness: 0.0076335378
+
+Expression: (((otsu)+(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0076335378
+
+Expression: ((minOtsu)/((otsu)-(stdev)))*((mean)*((mean)*(mean)))
+Fitness: 0.0076335378
+
+Expression: (((minOtsu)/(stdev))+(otsu))+(minOtsu)
+Fitness: 0.0076335378
+
+Expression: (((stdev)*(stdev))-(minOtsu))*(stdev)
+Fitness: 0.0076335378
+
+Expression: (((stdev)+(stdev))-(minOtsu))-(minOtsu)
+Fitness: 0.0076335378
+
+Expression: (((stdev)*(stdev))-(minOtsu))*(otsu)
+Fitness: 0.0076335378
+
+Expression: (stdev)/(((mean)+(minOtsu))/(minOtsu))
+Fitness: 0.0076335378
+
+Expression: ((minOtsu)+(((stdev)+(otsu))-((minOtsu)/(mean))))*((mean)*((mean)*(stdev)))
+Fitness: 0.0076335278
+
+Expression: (((minOtsu)+((otsu)+(stdev)))-(minOtsu))*(minOtsu)
+Fitness: 0.0076335278
+
+Expression: ((((stdev)*(otsu))-(otsu))-(minOtsu))*(minOtsu)
+Fitness: 0.0076335278
+
+Expression: (((minOtsu)+((stdev)*(minOtsu)))*(stdev))-(minOtsu)
+Fitness: 0.0076335278
+
+Expression: (((stdev)+((stdev)*(minOtsu)))-(minOtsu))+(stdev)
+Fitness: 0.0076335278
+
+Expression: ((((stdev)/(otsu))-(mean))-(stdev))*(minOtsu)
+Fitness: 0.0076335278
+
+Expression: ((((stdev)-(otsu))-(stdev))-(mean))+(minOtsu)
+Fitness: 0.0076335278
+
+Expression: ((((otsu)-(minOtsu))/((mean)-(otsu)))-(minOtsu))*(minOtsu)
+Fitness: 0.0076335278
+
+Expression: ((minOtsu)+(((otsu)/(stdev))+(otsu)))/(stdev)
+Fitness: 0.0076335278
+
+Expression: ((((stdev)-(minOtsu))+(otsu))-(stdev))-(stdev)
+Fitness: 0.0076335278
+
+Expression: (((minOtsu)*((stdev)/(otsu)))-(stdev))+(mean)
+Fitness: 0.0076335278
+
+Expression: ((((otsu)/(otsu))-(otsu))-(stdev))+(minOtsu)
+Fitness: 0.0076335278
+
+Expression: (stdev)*((stdev)-(((otsu)-(stdev))-((mean)*(mean))))
+Fitness: 0.0076335278
+
+Expression: (stdev)+((stdev)-(((stdev)-((mean)/(minOtsu)))+(stdev)))
+Fitness: 0.0076335178
+
+Expression: (((otsu)-((otsu)*((mean)+(otsu))))-(stdev))*(mean)
+Fitness: 0.0076335178
+
+Expression: ((stdev)/(((otsu)-((otsu)+(minOtsu)))/((minOtsu)*(minOtsu))))+(minOtsu)
+Fitness: 0.0076335178
+
+Expression: ((stdev)/((otsu)/((otsu)*((mean)/(stdev)))))*((mean)+((mean)*(otsu)))
+Fitness: 0.0076335178
+
+Expression: (((minOtsu)+((stdev)/((mean)+(minOtsu))))*(stdev))-(minOtsu)
+Fitness: 0.0076335178
+
+Expression: (((((otsu)/(minOtsu))-((otsu)+(stdev)))-(stdev))-(stdev))*(otsu)
+Fitness: 0.0076335178
+
+Expression: ((otsu)/(((minOtsu)-(stdev))-(((minOtsu)/(otsu))/(minOtsu))))*((mean)+((otsu)*(otsu)))
+Fitness: 0.0076335178
+
+Expression: (minOtsu)-(((otsu)+((otsu)*((mean)+(mean))))+(stdev))
+Fitness: 0.0076335178
+
+Expression: ((((((otsu)*(stdev))+(minOtsu))/(stdev))*(stdev))-(mean))*(minOtsu)
+Fitness: 0.0076335078
+
+Expression: ((((((mean)/(otsu))+(otsu))-(minOtsu))*(mean))*(stdev))*(minOtsu)
+Fitness: 0.0076335078
+
+Expression: (mean)/(((minOtsu)*(stdev))*((otsu)+((((stdev)+(otsu))+(stdev))+(stdev))))
+Fitness: 0.0076335078
+
+Expression: ((((((otsu)*(stdev))+(otsu))/(minOtsu))/(minOtsu))-(mean))-(mean)
+Fitness: 0.0076335078
+
+Expression: ((minOtsu)/(((otsu)-((minOtsu)+((minOtsu)*(otsu))))-((stdev)*(stdev))))*(otsu)
+Fitness: 0.0076335078
+
+Expression: ((stdev)+((mean)-((((otsu)/(stdev))*(stdev))*(minOtsu))))+(otsu)
+Fitness: 0.0076335078
+
+Expression: (((stdev)+((((mean)/(stdev))+(otsu))*(stdev)))-(minOtsu))-(minOtsu)
+Fitness: 0.0076335078
+
+Expression: ((((((otsu)*(minOtsu))+(otsu))/(minOtsu))/(minOtsu))-(mean))-(mean)
+Fitness: 0.0076335078
+
+Expression: ((((((otsu)*(minOtsu))+(minOtsu))-(stdev))*(mean))-(minOtsu))+(minOtsu)
+Fitness: 0.0076335078
+
+Expression: (((((stdev)+((otsu)+(mean)))-(minOtsu))+(((otsu)/(stdev))/(minOtsu)))-(stdev))*(minOtsu)
+Fitness: 0.0076335078
+
+Expression: ((((((minOtsu)/(stdev))-(minOtsu))-(minOtsu))+(stdev))-(stdev))*(minOtsu)
+Fitness: 0.0076335078
+
+Expression: ((((mean)-(((stdev)/((minOtsu)*(otsu)))+(otsu)))-((minOtsu)*((minOtsu)+(minOtsu))))*(minOtsu))-((otsu)-(stdev))
+Fitness: 0.0076334978
+
+Expression: ((((((minOtsu)/(otsu))+(stdev))-((stdev)+((otsu)+((stdev)/(otsu)))))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0076334978
+
+Expression: ((otsu)+((minOtsu)-((otsu)*((((mean)+(otsu))/(otsu))+(otsu)))))+(otsu)
+Fitness: 0.0076334978
+
+Expression: ((((mean)-(((stdev)/((minOtsu)*(stdev)))+(otsu)))-((minOtsu)*((minOtsu)+(minOtsu))))*(minOtsu))-((otsu)-(stdev))
+Fitness: 0.0076334978
+
+Expression: (((stdev)+((((mean)+((minOtsu)-(mean)))+(minOtsu))*(stdev)))-(minOtsu))-(minOtsu)
+Fitness: 0.0076334978
+
+Expression: ((stdev)/((otsu)/((minOtsu)*(((mean)+((stdev)*((minOtsu)+(minOtsu))))/(minOtsu)))))*((mean)+((otsu)*(minOtsu)))
+Fitness: 0.0076334978
+
+Expression: ((stdev)/((minOtsu)/(stdev)))*((otsu)+((((((stdev)+((minOtsu)+(stdev)))+(minOtsu))+(minOtsu))/(stdev))+(stdev)))
+Fitness: 0.0076334978
+
+Expression: ((((((minOtsu)/((minOtsu)-(mean)))+(stdev))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0076334978
+
+Expression: (((minOtsu)+((((otsu)/((mean)/(stdev)))+(otsu))*(stdev)))*(minOtsu))-(minOtsu)
+Fitness: 0.0076334978
+
+Expression: (minOtsu)*(stdev)
+Fitness: 0.0070921686
+
+Expression: (minOtsu)*(mean)
+Fitness: 0.0070921686
+
+Expression: (mean)/(stdev)
+Fitness: 0.0070921686
+
+Expression: (stdev)+(minOtsu)
+Fitness: 0.0070921686
+
+Expression: (minOtsu)/(stdev)
+Fitness: 0.0070921686
+
+Expression: (minOtsu)-(mean)
+Fitness: 0.0070921686
+
+Expression: (stdev)/(mean)
+Fitness: 0.0070921686
+
+Expression: (stdev)/(minOtsu)
+Fitness: 0.0070921686
+
+Expression: (mean)+(otsu)
+Fitness: 0.0070921686
+
+Expression: (stdev)*(minOtsu)
+Fitness: 0.0070921686
+
+Expression: (minOtsu)+(mean)
+Fitness: 0.0070921686
+
+Expression: (mean)*(minOtsu)
+Fitness: 0.0070921686
+
+Expression: (mean)*((minOtsu)-(otsu))
+Fitness: 0.0070921586
+
+Expression: ((otsu)+(minOtsu))+(stdev)
+Fitness: 0.0070921586
+
+Expression: ((stdev)-(mean))+(stdev)
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(otsu))+(stdev)
+Fitness: 0.0070921586
+
+Expression: ((mean)+(minOtsu))+((otsu)-(minOtsu))
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(mean))/(stdev)
+Fitness: 0.0070921586
+
+Expression: (minOtsu)+((stdev)+(otsu))
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(otsu))-(stdev)
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(minOtsu))-((otsu)/(stdev))
+Fitness: 0.0070921586
+
+Expression: (mean)*((minOtsu)+(minOtsu))
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(stdev))/(stdev)
+Fitness: 0.0070921586
+
+Expression: (stdev)*((stdev)-(otsu))
+Fitness: 0.0070921586
+
+Expression: ((minOtsu)+(mean))-(otsu)
+Fitness: 0.0070921586
+
+Expression: ((stdev)+(otsu))+(minOtsu)
+Fitness: 0.0070921586
+
+Expression: ((stdev)*(mean))+(stdev)
+Fitness: 0.0070921586
+
+Expression: (((stdev)*(stdev))-(minOtsu))+(stdev)
+Fitness: 0.0070921486
+
+Expression: (((minOtsu)*(stdev))*(stdev))*(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (stdev)*(((minOtsu)+(minOtsu))-((otsu)-(otsu)))
+Fitness: 0.0070921486
+
+Expression: (((minOtsu)*(stdev))-(minOtsu))*(otsu)
+Fitness: 0.0070921486
+
+Expression: (((otsu)+(stdev))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (((stdev)*(minOtsu))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (((minOtsu)*(stdev))-(minOtsu))-(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (stdev)*((otsu)-((otsu)+(minOtsu)))
+Fitness: 0.0070921486
+
+Expression: (((stdev)*(stdev))-(minOtsu))-(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (((stdev)-(stdev))-(minOtsu))*(stdev)
+Fitness: 0.0070921486
+
+Expression: (((minOtsu)*(stdev))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921486
+
+Expression: (stdev)*((minOtsu)-((stdev)/(stdev)))
+Fitness: 0.0070921486
+
+Expression: (((otsu)+(minOtsu))-(stdev))*(otsu)
+Fitness: 0.0070921486
+
+Expression: (stdev)*(((stdev)+(otsu))-(mean))
+Fitness: 0.0070921486
+
+Expression: ((((stdev)*(otsu))-(otsu))-(minOtsu))*(stdev)
+Fitness: 0.0070921386
+
+Expression: (((stdev)-((mean)/(otsu)))-(stdev))+((minOtsu)-(otsu))
+Fitness: 0.0070921386
+
+Expression: (((stdev)+((minOtsu)*(minOtsu)))-(minOtsu))+(stdev)
+Fitness: 0.0070921386
+
+Expression: ((((mean)-(otsu))*(minOtsu))*(stdev))+((minOtsu)-(otsu))
+Fitness: 0.0070921386
+
+Expression: ((minOtsu)+(((otsu)+(otsu))*((minOtsu)/(stdev))))*((mean)+((mean)*(minOtsu)))
+Fitness: 0.0070921386
+
+Expression: (((stdev)+((stdev)+(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: 0.0070921386
+
+Expression: ((((stdev)-(otsu))-(stdev))-(mean))*(otsu)
+Fitness: 0.0070921386
+
+Expression: ((((stdev)/(otsu))-(mean))-(stdev))-(minOtsu)
+Fitness: 0.0070921386
+
+Expression: ((((minOtsu)-(minOtsu))*((mean)*(mean)))-(mean))*(minOtsu)
+Fitness: 0.0070921386
+
+Expression: (((stdev)+((stdev)+(stdev)))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921386
+
+Expression: ((((stdev)-(minOtsu))*(mean))*(minOtsu))*(minOtsu)
+Fitness: 0.0070921386
+
+Expression: (((stdev)+((stdev)*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: 0.0070921386
+
+Expression: (((stdev)+((stdev)*(minOtsu)))-(mean))-(minOtsu)
+Fitness: 0.0070921386
+
+Expression: (minOtsu)-(((otsu)+((minOtsu)*((minOtsu)+(minOtsu))))+(stdev))
+Fitness: 0.0070921286
+
+Expression: ((otsu)*((mean)+((otsu)*((minOtsu)*(mean)))))+(stdev)
+Fitness: 0.0070921286
+
+Expression: (((stdev)+((stdev)-((otsu)/(minOtsu))))-(mean))-(minOtsu)
+Fitness: 0.0070921286
+
+Expression: ((stdev)+((otsu)+((otsu)*((minOtsu)+(mean)))))+(otsu)
+Fitness: 0.0070921286
+
+Expression: (((stdev)-((minOtsu)*((mean)-(otsu))))-(stdev))*(stdev)
+Fitness: 0.0070921286
+
+Expression: (((stdev)+((stdev)/((mean)/(minOtsu))))-(mean))-(minOtsu)
+Fitness: 0.0070921286
+
+Expression: (otsu)+((((otsu)/(stdev))+((otsu)-((mean)+(minOtsu))))-(otsu))
+Fitness: 0.0070921286
+
+Expression: ((stdev)/(((otsu)+((otsu)+(minOtsu)))-((minOtsu)-(otsu))))*((mean)+((otsu)*(mean)))
+Fitness: 0.0070921286
+
+Expression: ((minOtsu)+(((otsu)+((otsu)-(minOtsu)))*((minOtsu)-(otsu))))*((mean)+((otsu)*(mean)))
+Fitness: 0.0070921286
+
+Expression: (stdev)*((minOtsu)-((mean)/((otsu)-((minOtsu)-(minOtsu)))))
+Fitness: 0.0070921286
+
+Expression: (((otsu)+((otsu)*((mean)+(mean))))-(stdev))*(otsu)
+Fitness: 0.0070921286
+
+Expression: ((stdev)*((minOtsu)/((minOtsu)*((minOtsu)+(mean)))))+(otsu)
+Fitness: 0.0070921286
+
+Expression: ((((((otsu)/(mean))+(otsu))-(minOtsu))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921186
+
+Expression: (((((mean)/((minOtsu)/(stdev)))+(minOtsu))-((minOtsu)*((stdev)+((stdev)-(stdev)))))-(stdev))+((mean)-(mean))
+Fitness: 0.0070921186
+
+Expression: ((minOtsu)/(((minOtsu)+(stdev))-((((stdev)*(stdev))+(mean))*((otsu)-(stdev)))))*((mean)*((otsu)*(stdev)))
+Fitness: 0.0070921186
+
+Expression: ((((((otsu)-(stdev))+(minOtsu))-(otsu))*(mean))-(minOtsu))*(otsu)
+Fitness: 0.0070921186
+
+Expression: (((((otsu)-((minOtsu)*(mean)))+(stdev))-(((stdev)+(minOtsu))+(mean)))-(otsu))-((otsu)-(stdev))
+Fitness: 0.0070921186
+
+Expression: ((((((otsu)*((minOtsu)-(stdev)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921086
+
+Expression: ((stdev)/(((mean)+(stdev))-(((((minOtsu)-(minOtsu))+((stdev)/(mean)))-(minOtsu))*(minOtsu))))*((mean)+((otsu)*(otsu)))
+Fitness: 0.0070921086
+
+Expression: ((otsu)/((stdev)+((((minOtsu)+(otsu))/(((stdev)/(otsu))+(stdev)))*(mean))))+(otsu)
+Fitness: 0.0070921086
+
+Expression: ((minOtsu)+(((minOtsu)+(stdev))*(((((otsu)-((otsu)+(otsu)))+((minOtsu)/(stdev)))+(minOtsu))*(minOtsu))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0070921086
+
+Expression: ((((((otsu)/((mean)*(stdev)))+(otsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0070921086
+
+Expression: (stdev)*((((((otsu)-((minOtsu)+(minOtsu)))/(minOtsu))*(otsu))*(otsu))+(otsu))
+Fitness: 0.0070921086
+
+Expression: ((stdev)/(((mean)+(stdev))-(((((otsu)-(minOtsu))+((stdev)/(minOtsu)))-(minOtsu))*(minOtsu))))*((mean)+((otsu)*(otsu)))
+Fitness: 0.0070921086
+
+Expression: (stdev)+(mean)
+Fitness: 0.0066224866
+
+Expression: (stdev)/(otsu)
+Fitness: 0.0066224866
+
+Expression: (otsu)/(stdev)
+Fitness: 0.0066224866
+
+Expression: (minOtsu)/((stdev)*(otsu))
+Fitness: 0.0066224766
+
+Expression: (minOtsu)/((otsu)-(stdev))
+Fitness: 0.0066224766
+
+Expression: ((minOtsu)/(mean))/(stdev)
+Fitness: 0.0066224766
+
+Expression: ((stdev)+(stdev))+(minOtsu)
+Fitness: 0.0066224766
+
+Expression: (minOtsu)+((stdev)+(stdev))
+Fitness: 0.0066224766
+
+Expression: ((otsu)*(stdev))/(minOtsu)
+Fitness: 0.0066224766
+
+Expression: ((stdev)+(otsu))+((minOtsu)+(otsu))
+Fitness: 0.0066224766
+
+Expression: (minOtsu)/((stdev)-(otsu))
+Fitness: 0.0066224766
+
+Expression: (minOtsu)/((minOtsu)-((otsu)/(stdev)))
+Fitness: 0.0066224666
+
+Expression: (((stdev)*(stdev))-(mean))*(minOtsu)
+Fitness: 0.0066224666
+
+Expression: (minOtsu)-(((otsu)+(stdev))+(stdev))
+Fitness: 0.0066224666
+
+Expression: ((otsu)+((otsu)+(stdev)))+(otsu)
+Fitness: 0.0066224666
+
+Expression: (((otsu)-(minOtsu))-(stdev))*(otsu)
+Fitness: 0.0066224666
+
+Expression: (((stdev)/(minOtsu))*(otsu))-((otsu)-(stdev))
+Fitness: 0.0066224666
+
+Expression: (((minOtsu)/(minOtsu))+(minOtsu))/((stdev)-(mean))
+Fitness: 0.0066224666
+
+Expression: (((stdev)+(otsu))+(stdev))+((minOtsu)-(otsu))
+Fitness: 0.0066224666
+
+Expression: (((mean)-(stdev))-(stdev))*(minOtsu)
+Fitness: 0.0066224666
+
+Expression: ((((stdev)-(otsu))-(otsu))-(minOtsu))+(minOtsu)
+Fitness: 0.0066224566
+
+Expression: ((stdev)/((otsu)/((mean)+(mean))))*((mean)+((minOtsu)*(minOtsu)))
+Fitness: 0.0066224566
+
+Expression: ((stdev)/(((otsu)+(otsu))-((minOtsu)*(stdev))))*((mean)+((otsu)*(minOtsu)))
+Fitness: 0.0066224566
+
+Expression: ((stdev)/(((otsu)+(otsu))-((minOtsu)/(stdev))))*((mean)+((mean)*(minOtsu)))
+Fitness: 0.0066224566
+
+Expression: ((minOtsu)+(((otsu)+(otsu))*((minOtsu)*(stdev))))*((mean)+((otsu)*(minOtsu)))
+Fitness: 0.0066224566
+
+Expression: ((((stdev)-(minOtsu))*(mean))+(minOtsu))*(minOtsu)
+Fitness: 0.0066224566
+
+Expression: ((otsu)/((minOtsu)/(minOtsu)))*((((stdev)-(minOtsu))*(mean))*(otsu))
+Fitness: 0.0066224566
+
+Expression: ((((stdev)*(otsu))-(otsu))-(minOtsu))*(otsu)
+Fitness: 0.0066224566
+
+Expression: ((otsu)+((minOtsu)*((minOtsu)*((minOtsu)+(mean)))))+(stdev)
+Fitness: 0.0066224466
+
+Expression: (otsu)+((((otsu)/(stdev))+((otsu)-((mean)+(stdev))))-(otsu))
+Fitness: 0.0066224466
+
+Expression: ((otsu)+((otsu)+((otsu)*((minOtsu)+(mean)))))+(otsu)
+Fitness: 0.0066224466
+
+Expression: ((minOtsu)+(((minOtsu)+(stdev))-((((stdev)*(stdev))+(mean))*((otsu)-(stdev)))))*((mean)*((otsu)*(stdev)))
+Fitness: 0.0066224366
+
+Expression: ((((((mean)/(otsu))+(otsu))-(minOtsu))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0066224366
+
+Expression: ((((((minOtsu)+(mean))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0066224366
+
+Expression: (minOtsu)-(((((minOtsu)-(stdev))-(mean))+((((((minOtsu)-(minOtsu))+(stdev))+(minOtsu))/(minOtsu))-(stdev)))+(stdev))
+Fitness: 0.0066224266
+
+Expression: (((minOtsu)+(((((otsu)+(minOtsu))+((minOtsu)-(stdev)))-(stdev))+(minOtsu)))-(otsu))*(minOtsu)
+Fitness: 0.0066224266
+
+Expression: ((stdev)/(((mean)+(stdev))-(((((stdev)-(minOtsu))+((stdev)*(stdev)))-(minOtsu))*(minOtsu))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0066224266
+
+Expression: ((minOtsu)/((otsu)*((((otsu)*((mean)+(otsu)))+(minOtsu))*(minOtsu))))*(minOtsu)
+Fitness: 0.0066224266
+
+Expression: ((((((otsu)*((mean)-(mean)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0066224266
+
+Expression: ((((((stdev)*((minOtsu)+(otsu)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0066224266
+
+Expression: ((stdev)/(((minOtsu)+(stdev))-(((((minOtsu)-(minOtsu))+(minOtsu))/(minOtsu))*(minOtsu))))*((mean)+((mean)*(stdev)))
+Fitness: 0.0066224266
+
+Expression: ((stdev)/(((mean)+(stdev))-((((minOtsu)+(mean))+(((stdev)*(otsu))*(minOtsu)))*(stdev))))*((mean)+((otsu)*(stdev)))
+Fitness: 0.0066224266
+
+Expression: ((((((otsu)/((mean)/(stdev)))+(otsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0066224266
+
+Expression: (((stdev)+((((otsu)/((mean)/(stdev)))+(otsu))*(stdev)))-(minOtsu))-(minOtsu)
+Fitness: 0.0066224266
+
+Expression: (minOtsu)-(((((minOtsu)-(stdev))-(mean))+((((((stdev)-(minOtsu))+(stdev))+(minOtsu))/(minOtsu))-(stdev)))+(stdev))
+Fitness: 0.0066224266
+
+Expression: (otsu)-(stdev)
+Fitness: 0.0062111501
+
+Expression: (stdev)*((minOtsu)-(stdev))
+Fitness: 0.0062111401
+
+Expression: ((otsu)/((stdev)/(otsu)))*((stdev)+(otsu))
+Fitness: 0.0062111301
+
+Expression: (mean)/(((minOtsu)*(minOtsu))-(minOtsu))
+Fitness: 0.0062111301
+
+Expression: ((((stdev)-(minOtsu))-(mean))-(minOtsu))+(minOtsu)
+Fitness: 0.0062111201
+
+Expression: ((((otsu)-(minOtsu))-(otsu))-(stdev))*(otsu)
+Fitness: 0.0062111201
+
+Expression: (stdev)+((((otsu)/(stdev))/(minOtsu))-(otsu))
+Fitness: 0.0062111201
+
+Expression: (minOtsu)-((((stdev)-(minOtsu))-(mean))+(minOtsu))
+Fitness: 0.0062111201
+
+Expression: ((((stdev)-(minOtsu))-(mean))+(minOtsu))*(minOtsu)
+Fitness: 0.0062111201
+
+Expression: (((stdev)-((stdev)-(stdev)))-(otsu))-((otsu)-(stdev))
+Fitness: 0.0062111201
+
+Expression: (((stdev)-((stdev)/(otsu)))-(otsu))-((otsu)-(stdev))
+Fitness: 0.0062111201
+
+Expression: (((otsu)-((otsu)*((mean)+(otsu))))-(stdev))*(otsu)
+Fitness: 0.0062111101
+
+Expression: (minOtsu)-(((((mean)-(mean))-(otsu))+(stdev))+(stdev))
+Fitness: 0.0062111101
+
+Expression: ((otsu)*((minOtsu)+((otsu)*(((minOtsu)/(stdev))*(stdev)))))+(stdev)
+Fitness: 0.0062111001
+
+Expression: ((otsu)*((minOtsu)-((otsu)*(((minOtsu)/(stdev))*(stdev)))))+(stdev)
+Fitness: 0.0062111001
+
+Expression: ((otsu)/((minOtsu)+(stdev)))*(((minOtsu)-((stdev)/(stdev)))-((((mean)*((minOtsu)+(minOtsu)))-(stdev))+(mean)))
+Fitness: 0.0062111001
+
+Expression: ((((((otsu)*((mean)-(stdev)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: 0.0062110901
+
+Expression: ((((((minOtsu)/(((stdev)/(mean))/(minOtsu)))-((otsu)-(minOtsu)))-(mean))+(minOtsu))-(minOtsu))*(otsu)
+Fitness: 0.0062110901
+
+Expression: ((stdev)/(((mean)+(stdev))-(((minOtsu)/(otsu))*(minOtsu))))*((mean)+((otsu)*(otsu)))
+Fitness: 0.0058478832
+
+Expression: (((otsu)-(minOtsu))-(minOtsu))*(otsu)
+Fitness: 0.0016366112
+
+Expression: ((otsu)-((otsu)*(minOtsu)))+(otsu)
+Fitness: 0.0016102560
+
+Expression: (minOtsu)/(((otsu)+(stdev))-(stdev))
+Fitness: 0.0015847361
+
+Expression: (((stdev)-(otsu))-(stdev))*((otsu)-(((otsu)-(otsu))+(minOtsu)))
+Fitness: 0.0015847261
+
+Expression: (minOtsu)/(((((mean)-(mean))-(otsu))+(stdev))-(stdev))
+Fitness: 0.0015847161
+
+Expression: ((minOtsu)+((otsu)+((otsu)*((otsu)+(minOtsu)))))+(minOtsu)
+Fitness: 0.0015360283
+
+Expression: (minOtsu)*((otsu)*(otsu))
+Fitness: 0.0015128193
+
+Expression: (otsu)*((minOtsu)*(otsu))
+Fitness: 0.0015128193
+
+Expression: ((((stdev)-(otsu))-(stdev))*(minOtsu))*(otsu)
+Fitness: 0.0015127993
+
+Expression: ((otsu)*(minOtsu))+(otsu)
+Fitness: 0.0008920207
+
+Expression: ((minOtsu)*(otsu))+(otsu)
+Fitness: 0.0008920207
+
+Expression: ((minOtsu)*((otsu)-(minOtsu)))+(minOtsu)
+Fitness: 0.0008841233
+
+Expression: (((otsu)*(minOtsu))-(minOtsu))*(otsu)
+Fitness: 0.0008612764
+
+Expression: (((stdev)-(minOtsu))-(stdev))*(otsu)
+Fitness: 0.0003213901
+
+Expression: ((((((otsu)-(minOtsu))+(minOtsu))-(otsu))*(mean))-(minOtsu))*(otsu)
+Fitness: 0.0003213601
+
+Expression: (otsu)*(minOtsu)
+Fitness: 0.0003203801
+
+Expression: ((minOtsu)*(otsu))+((minOtsu)-(minOtsu))
+Fitness: 0.0003203701
+
+Expression: ((otsu)+(otsu))*(minOtsu)
+Fitness: 0.0003203701
+
+Expression: ((minOtsu)-(otsu))+(minOtsu)
+Fitness: 0.0003193468
+
+Expression: ((otsu)+(minOtsu))+(otsu)
+Fitness: 0.0003163156
+
+Expression: (minOtsu)+((otsu)+(otsu))
+Fitness: 0.0003163156
+
+Expression: ((otsu)+(otsu))+(minOtsu)
+Fitness: 0.0003163156
+
+Expression: (stdev)*((minOtsu)+(((otsu)/(minOtsu))-(minOtsu)))
+Fitness: 0.0002431898
+
+Expression: (otsu)-(minOtsu)
+Fitness: 0.0002414576
+
+Expression: (minOtsu)-((otsu)+(otsu))
+Fitness: 0.0002408658
+
+Expression: (otsu)+((((otsu)/(minOtsu))*(otsu))*(((otsu)+(otsu))-(otsu)))
+Fitness: 0.0002408458
+
+Expression: ((minOtsu)+(minOtsu))+(otsu)
+Fitness: 0.0001952344
+
+Expression: (minOtsu)-((minOtsu)+(otsu))
+Fitness: 0.0001948538
+
+Expression: otsu
+Fitness: 0.0001944947
+
+Expression: (otsu)*(otsu)
+Fitness: 0.0001944847
+
+Expression: (otsu)+(otsu)
+Fitness: 0.0001944847
+
+Expression: ((otsu)+(otsu))+(otsu)
+Fitness: 0.0001944747
+
+Expression: ((minOtsu)*(otsu))/(minOtsu)
+Fitness: 0.0001944747
+
+Expression: ((otsu)+(otsu))*(otsu)
+Fitness: 0.0001944747
+
+Expression: (otsu)+(minOtsu)
+Fitness: 0.0001778743
+
+Expression: (minOtsu)+(otsu)
+Fitness: 0.0001778743
+
+Expression: (otsu)+(((minOtsu)+(otsu))-(otsu))
+Fitness: 0.0001778543
+
+Expression: minOtsu
+Fitness: 0.0000899000
+
+Expression: (minOtsu)+(minOtsu)
+Fitness: 0.0000898900
+
+Expression: (minOtsu)*(minOtsu)
+Fitness: 0.0000898900
+
+Expression: ((minOtsu)+(minOtsu))+(minOtsu)
+Fitness: 0.0000898800
+
+Expression: ((otsu)/(otsu))+(minOtsu)
+Fitness: 0.0000898800
+
+Expression: ((otsu)-(otsu))+(minOtsu)
+Fitness: 0.0000898800
+
+Expression: ((stdev)/(stdev))-(minOtsu)
+Fitness: 0.0000898800
+
+Expression: (minOtsu)-((minOtsu)+(minOtsu))
+Fitness: 0.0000898800
+
+Expression: (stdev)-((stdev)-(minOtsu))
+Fitness: 0.0000898800
+
+Expression: (((minOtsu)*(minOtsu))*(minOtsu))*(minOtsu)
+Fitness: 0.0000898700
+
+Expression: (minOtsu)/((minOtsu)-((otsu)-(minOtsu)))
+Fitness: 0.0000736909
+
+Expression: (otsu)/(minOtsu)
+Fitness: 0.0000687411
+
+Expression: (minOtsu)/(otsu)
+Fitness: 0.0000642745
+
+Expression: ((minOtsu)/(otsu))+((minOtsu)-(minOtsu))
+Fitness: 0.0000642645
+
+Expression: (((stdev)-((minOtsu)/(otsu)))-(stdev))*((mean)/(mean))
+Fitness: 0.0000642445
+
+Expression: (minOtsu)-(minOtsu)
+Fitness: -0.0000000300
+
+Expression: (minOtsu)/(minOtsu)
+Fitness: -0.0000000300
+
+Expression: (stdev)/(stdev)
+Fitness: -0.0000000300
+
+Expression: (mean)-(mean)
+Fitness: -0.0000000300
+
+Expression: (stdev)-(stdev)
+Fitness: -0.0000000300
+
+Expression: (otsu)/(otsu)
+Fitness: -0.0000000300
+
+Expression: (minOtsu)/((minOtsu)-(otsu))
+Fitness: -0.0000000400
+
+Expression: (stdev)*((otsu)-(otsu))
+Fitness: -0.0000000400
+
+Expression: (stdev)/((otsu)/(minOtsu))
+Fitness: -0.0000000400
+
+Expression: (minOtsu)/((otsu)-(otsu))
+Fitness: -0.0000000400
+
+Expression: (mean)/((minOtsu)-(minOtsu))
+Fitness: -0.0000000400
+
+Expression: ((otsu)/(minOtsu))/(otsu)
+Fitness: -0.0000000400
+
+Expression: (minOtsu)/((minOtsu)/(otsu))
+Fitness: -0.0000000400
+
+Expression: (mean)/((otsu)-(otsu))
+Fitness: -0.0000000400
+
+Expression: (minOtsu)/(((minOtsu)-(minOtsu))*(minOtsu))
+Fitness: -0.0000000500
+
+Expression: (otsu)+(((stdev)-(stdev))-(otsu))
+Fitness: -0.0000000500
+
+Expression: ((otsu)/((otsu)+(minOtsu)))*((otsu)+(stdev))
+Fitness: -0.0000000500
+
+Expression: ((minOtsu)/((minOtsu)-(minOtsu)))*((otsu)-(stdev))
+Fitness: -0.0000000500
+
+Expression: ((stdev)/((otsu)/(minOtsu)))*((otsu)+((stdev)/(minOtsu)))
+Fitness: -0.0000000500
+
+Expression: ((stdev)/((otsu)/(minOtsu)))*((mean)+((mean)*(mean)))
+Fitness: -0.0000000500
+
+Expression: (((stdev)-((minOtsu)+(minOtsu)))-(minOtsu))*((mean)-(mean))
+Fitness: -0.0000000600
+
+Expression: (((stdev)-((mean)+(minOtsu)))-(minOtsu))*((mean)-(mean))
+Fitness: -0.0000000600
+
+Expression: ((minOtsu)/((otsu)+(otsu)))*((otsu)-(((minOtsu)/(minOtsu))/((stdev)/(mean))))
+Fitness: -0.0000000600
+
+Expression: (((stdev)-((stdev)+(minOtsu)))-(minOtsu))*((mean)-(mean))
+Fitness: -0.0000000600
+
+Expression: (((minOtsu)/((otsu)-(minOtsu)))/((otsu)-(stdev)))/(mean)
+Fitness: -0.0000000600
+
+Expression: ((mean)/(((minOtsu)/(otsu))/(minOtsu)))+(((otsu)+((minOtsu)*(minOtsu)))-(((stdev)/(mean))/(minOtsu)))
+Fitness: -0.0000000600
+
+Expression: (((mean)*((otsu)*((minOtsu)+(stdev))))-(minOtsu))*((otsu)/((minOtsu)-(minOtsu)))
+Fitness: -0.0000000700
+
+Expression: (((minOtsu)+((otsu)-((minOtsu)+(stdev))))+(minOtsu))/((minOtsu)-(otsu))
+Fitness: -0.0000000700
+
+Expression: ((stdev)/((otsu)/((otsu)*((minOtsu)-(otsu)))))*((mean)+((mean)*(minOtsu)))
+Fitness: -0.0000000700
+
+Expression: ((stdev)/((otsu)/((otsu)*((minOtsu)/(otsu)))))*((mean)+((otsu)*(minOtsu)))
+Fitness: -0.0000000700
+
+Expression: ((minOtsu)+(((minOtsu)+(stdev))/(((minOtsu)+(stdev))*((minOtsu)-(minOtsu)))))*((mean)*((otsu)*(stdev)))
+Fitness: -0.0000000700
+
+Expression: (minOtsu)-(((((minOtsu)/((mean)+((minOtsu)/(((<VAR>)*(<VAR>))-(stdev)))))-((stdev)+(stdev)))-(minOtsu))+(minOtsu))
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((((((<EXPR>)<OP>(<EXPR>))+((<EXPR>)<OP>(<EXPR>)))*(minOtsu))*(minOtsu))/(stdev))+(otsu))*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((otsu)/(((mean)-((<VAR>)/(<VAR>)))+(minOtsu)))+(otsu))*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: (((otsu)-((((otsu)/((((<VAR>)+((<EXPR>)<OP>(<EXPR>)))+((<VAR>)-(<VAR>)))+(minOtsu)))+(otsu))*(minOtsu)))-(stdev))+(mean)
+Fitness: -0.0000000900
+
+Expression: ((stdev)/((minOtsu)/(stdev)))*((otsu)+(((((((otsu)-((<VAR>)+(<VAR>)))+((minOtsu)/(stdev)))+(minOtsu))+(minOtsu))/(stdev))+(stdev)))
+Fitness: -0.0000000900
+
+Expression: ((otsu)+((stdev)+((((((minOtsu)/(minOtsu))+(stdev))/((stdev)+((stdev)-((<VAR>)/((<EXPR>)<OP>(<EXPR>))))))+(minOtsu))/((stdev)+(otsu)))))+(otsu)
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((otsu)/(((((<EXPR>)<OP>(<EXPR>))+((<EXPR>)<OP>(<EXPR>)))+((<VAR>)-(<VAR>)))+(minOtsu)))+(otsu))*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((mean)*((((stdev)/(minOtsu))-((minOtsu)/((otsu)*(((minOtsu)-((<VAR>)+(<VAR>)))/(minOtsu)))))+(minOtsu)))+(otsu)
+Fitness: -0.0000000900
+
+Expression: (((((((((<VAR>)*(<VAR>))+(minOtsu))+(stdev))/(minOtsu))+(otsu))-((stdev)+((mean)+(minOtsu))))*(mean))-(minOtsu))*(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((stdev)+((minOtsu)+((minOtsu)*((((((<VAR>)+((<EXPR>)<OP>(<EXPR>)))+(minOtsu))-(minOtsu))/(mean))+(stdev)))))+(stdev)
+Fitness: -0.0000000900
+
+Expression: ((stdev)/((otsu)/((((otsu)/((minOtsu)+((stdev)*((<VAR>)/((<EXPR>)<OP>(<EXPR>))))))*(minOtsu))*((minOtsu)+((minOtsu)-(stdev))))))*((mean)+((mean)*(otsu)))
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((mean)+((((<VAR>)+(<VAR>))*((<VAR>)+((<EXPR>)<OP>(<EXPR>))))/(otsu)))+(minOtsu))/(stdev)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((stdev)+((minOtsu)-((minOtsu)*((((((<VAR>)+((<EXPR>)<OP>(<EXPR>)))-(stdev))-(minOtsu))/(otsu))+(stdev)))))+(stdev)
+Fitness: -0.0000000900
+
+Expression: ((stdev)*((minOtsu)-((otsu)*(((((minOtsu)/((<VAR>)-(<VAR>)))/(otsu))/((minOtsu)+((((<EXPR>)<OP>(<EXPR>))+((<EXPR>)<OP>(<EXPR>)))-(stdev))))+(otsu)))))+(otsu)
+Fitness: -0.0000000900
+
+Expression: (stdev)*((stdev)-((((minOtsu)-(mean))/(mean))+((mean)*(((((minOtsu)-((<VAR>)*((<EXPR>)<OP>(<EXPR>))))+(stdev))+(minOtsu))+(minOtsu)))))
+Fitness: -0.0000000900
+
+Expression: ((minOtsu)/(((otsu)/(otsu))-(((minOtsu)*(mean))+(mean))))*(((minOtsu)+((otsu)+((minOtsu)+((minOtsu)*((otsu)/((((<EXPR>)<OP>(<EXPR>))+(<VAR>))-(otsu)))))))*((otsu)+(minOtsu)))
+Fitness: -0.0000000900
+
+Expression: ((stdev)/(((mean)+(stdev))-(((((minOtsu)-(stdev))+((minOtsu)+((otsu)*((<VAR>)/((<EXPR>)<OP>(<EXPR>))))))-(minOtsu))*(minOtsu))))*((mean)+((otsu)*(stdev)))
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((otsu)/(((otsu)*((<VAR>)*(<VAR>)))-(otsu)))+(minOtsu))/(stdev)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((minOtsu)/(((minOtsu)+(stdev))/(((((stdev)-((stdev)*(((<EXPR>)<OP>(<EXPR>))*(<VAR>))))+(stdev))-(stdev))*(minOtsu))))*((mean)+((otsu)*(otsu)))
+Fitness: -0.0000000900
+
+Expression: (((stdev)+((((otsu)/((((<VAR>)+((<EXPR>)<OP>(<EXPR>)))+((<VAR>)-(<VAR>)))+(minOtsu)))+(otsu))*(minOtsu)))-(minOtsu))-(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((((((mean)+((((<VAR>)+(<VAR>))*((<VAR>)*(<VAR>)))-(stdev)))+(minOtsu))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((((((minOtsu)/(((otsu)*((<VAR>)/(<VAR>)))-(otsu)))+(stdev))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+Fitness: -0.0000000900
+
+Expression: ((minOtsu)+((minOtsu)+((((otsu)/((((<VAR>)+((<EXPR>)<OP>(<EXPR>)))+((<VAR>)-(<VAR>)))+(minOtsu)))+(otsu))*(minOtsu))))*(minOtsu)
+Fitness: -0.0000000900
+
+(((stdev)*(stdev))-(minOtsu))*(minOtsu)
+((((stdev)/(otsu))-(mean))-(stdev))*(otsu)
+((stdev)/((stdev)+((otsu)*(minOtsu))))+(minOtsu)
+(mean)/(otsu)
+((((((minOtsu)/((minOtsu)-(mean)))+(stdev))-(stdev))*(mean))-(minOtsu))*(minOtsu)
+[ 113.  113.    0.  113.  113.  113.  114.  114.   75.  111.  100.  124.
+  110.  111.  126.  126.  126.  126.   98.  104.  106.  105.  105.  106.
+  102.  100.  104.  122.  106.   80.  118.   91.   66.  113.   75.   53.
+  132.  109.   86.  130.   82.   79.  113.   73.   65.]
+By using extacted features, right : 40, wrong : 5, mse : 0.846
+[ 113.  113.    0.  114.  114.  113.  114.  113.  113.  111.  100.  126.
+  111.  111.  126.  126.  126.  126.   98.  106.  106.  105.  105.  106.
+  102.  100.  104.  122.  106.   80.  118.   91.   66.  113.   75.   53.
+  132.  109.   86.  130.   82.   79.  113.   73.   65.]
+By using original features, right : 39, wrong : 6, mse : 0.077

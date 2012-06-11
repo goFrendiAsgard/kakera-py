@@ -17,20 +17,20 @@ ge.grammar = {
     '<EXPR>' : [
             {'become' : '(<EXPR>)<OP>(<EXPR>)', 'p' : 2},
             {'become' : '<VAR>', 'p' : 8},
-            {'become' : '<NUM>', 'p' : 1}
+            {'become' : '<NUM>', 'p' : 1},
         ],
     '<OP>' : [
-            {'become' : '+', 'p' : 4},
-            {'become' : '-', 'p' : 3},
-            {'become' : '*', 'p' : 3},
-            {'become' : '/', 'p' : 3},
+            {'become' : '+', 'p' : 2},
+            {'become' : '-', 'p' : 2},
+            {'become' : '*', 'p' : 2},
+            {'become' : '/', 'p' : 2},
             {'become' : '**', 'p' : 1}
         ],
     '<VAR>' : [
-            {'become' : 'otsu', 'p' : 5},
-            {'become' : 'stdev', 'p' : 5},
-            {'become' : 'mean', 'p' : 5},
-            {'become' : 'minOtsu', 'p' : 5},
+            {'become' : 'minOtsu', 'p' : 2},
+            {'become' : 'otsu', 'p' : 2},
+            {'become' : 'stdev', 'p' : 2},
+            {'become' : 'mean', 'p' : 2},            
         ],
     '<NUM>' : [
             {'become' : '<DIGIT>.<DIGIT>', 'p' : 2},
@@ -70,38 +70,63 @@ bestPhenotype = ge.getBestPhenotype(5, 0)
 for phenotype in bestPhenotype:
     print(phenotype)
     
-all_inputs = []
+all_extracted_features = []
+all_original_features = []
 all_targets = []
 trainingHeader = trainingSet['header']
 for trainingData in trainingSet['data']:
     sandbox = {}  
-    inputs = []
+    extracted_inputs = []
+    original_inputs = []
     targets = []  
     for i in xrange(len(trainingHeader)):
         exec(trainingHeader[i]+'='+str(float(trainingData[i]))) in sandbox
+        original_inputs.append(float(sandbox[trainingHeader[i]]))
     for i in xrange(len(bestPhenotype)):
         exec('_result = '+str(bestPhenotype[i])) in sandbox
-        inputs.append(float(sandbox['_result']))
+        extracted_inputs.append(float(sandbox['_result']))
     exec('_result = '+str(trainingSet['target'])) in sandbox
     targets = float(sandbox['_result'])
-    all_inputs.append(inputs)
+    all_extracted_features.append(extracted_inputs)
+    all_original_features.append(original_inputs)
     all_targets.append(targets)
 
-print all_inputs
-print all_targets
+#print all_extracted_features
+#print all_targets
 
 
 from sklearn import svm
 clf = svm.SVC(kernel='linear', scale_C=True)
-clf.fit(all_inputs, all_targets)
-all_predicts = clf.predict(all_inputs)
+clf.fit(all_extracted_features, all_targets)
+all_predicts = clf.predict(all_extracted_features)
 print(all_predicts)
 
 right = 0
 wrong = 0
+mse = 0.0
 for i in xrange(len(all_targets)):
-    if abs(all_targets[i]-all_predicts[i])>1:
+    mse += pow((all_targets[i]-all_predicts[i]), 2)
+    if abs(all_targets[i]-all_predicts[i])>=1:
         wrong +=1
     else:
         right +=1
-print('right : %d, wrong %d' %(right, wrong))
+mse = pow(mse, 0.5)/len(all_targets)
+print('By using extacted features, right : %d, wrong : %d, mse : %5.3f' %(right, wrong, mse))
+
+
+clf = svm.SVC(kernel='linear', scale_C=True)
+clf.fit(all_original_features, all_targets)
+all_predicts = clf.predict(all_original_features)
+print(all_predicts)
+
+right = 0
+wrong = 0
+mse = 0.0
+for i in xrange(len(all_targets)):
+    mse += pow((all_targets[i]-all_predicts[i]), 2)
+    if abs(all_targets[i]-all_predicts[i])>=1:
+        wrong +=1
+    else:
+        right +=1
+mse = pow(mse, 0.5)/len(all_targets)
+print('By using original features, right : %d, wrong : %d, mse : %5.3f' %(right, wrong, mse))

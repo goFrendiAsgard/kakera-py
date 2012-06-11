@@ -38,10 +38,15 @@ class Go_GeneticsAlgorithm(object):
         return len(self.generation)-1
     
     def _mutation(self, chromosome): 
-        #return new chromosome        
-        random = int(round(self.random.get(0,self.chromosomeLength-1)))
-        newCodon = self.minCodon+((chromosome[random]-self.minCodon+1) % (self.maxCodon+1-self.minCodon))       
-        chromosome[random] = newCodon
+        #return new chromosome   
+        i=0
+        rnd_count = int(round(self.random.get(0,self.chromosomeLength-1)/2)) 
+        while i<rnd_count:
+            rnd_addition = int(round(self.random.get(self.minCodon,self.maxCodon)))
+            rnd_index = int(round(self.random.get(0,self.chromosomeLength-1)))
+            newCodon = self.minCodon+((chromosome[rnd_index]-self.minCodon+rnd_addition) % (self.maxCodon+1-self.minCodon))       
+            chromosome[rnd_index] = newCodon
+            i+=1
         return chromosome
     
     def _crossover(self, chromosome1, chromosome2): 
